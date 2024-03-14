@@ -1,0 +1,306 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.contentHeader {
+  display: flex;
+  flex-direction: column;
+}
+
+.headerCover {
+  background-image: url(../../../public/assets/images/capaDegrade.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+}
+
+.headerCover p {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.headerCover h2 {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.headerCover h1 {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 70px;
+  font-weight: 800;
+}
+
+.headerCover h3 {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.textHeaderCover {
+  color: white;
+  justify-content: center;
+}
+
+.textHeaderCover p {
+  font-size: 10px;
+}
+
+.textHeaderCover h2 {
+  font-size: 30px;
+}
+
+.textHeaderCover h1 {
+  font-size: 70px;
+}
+
+.contentHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 60%;
+}
+
+.contentAboutUs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentAboutUs h2 {
+  color: #0002fe;
+  font-family: "roboto", sans-serif;
+  font-weight: 900;
+  font-size: 40px;
+}
+
+.contentAboutUs p {
+  text-align: center;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 48px 300px;
+  text-align: justify;
+}
+
+.photos {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  padding: 88px;
+}
+
+.photo {
+  width: 234px;
+  height: 234px;
+  background-color: #e4e5ff;
+}
+
+.contentCourses {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.contentCourses h2 {
+  padding: 48px;
+  text-align: center;
+  color: #0002fe;
+  font-family: "roboto", sans-serif;
+  font-weight: 900;
+  font-size: 40px;
+}
+
+.contentBsiCourse,
+.contentTadsCourse {
+  display: flex;
+  align-items: center;
+  padding-bottom: 120px;
+}
+
+.imageBsiCourse,
+.imageTadsCourse {
+  width: 50%;
+  text-align: center;
+}
+
+.imageBsiCourse img,
+.imagetadsCourse img {
+  width: 50%;
+}
+
+.contentTextBsiCourse,
+.contentTextTadsCourse {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+}
+
+.textBsiCourse,
+.textTadsCourse {
+  width: 70%;
+}
+
+.textBsiCourse h3,
+.textTadsCourse h3 {
+  color: #0002fe;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  padding: 16px 0;
+}
+
+.textBsiCourse button:hover,
+.textTadsCourse button:hover {
+  cursor: pointer;
+}
+
+.textBsiCourse p,
+.textTadsCourse p {
+  color: black;
+  font-size: 15px;
+  text-align: justify;
+  font-weight: 400;
+  padding: 16px 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.textBsiCourse ul,
+.textTadsCourse ul {
+  padding: 16px 16px 32px;
+  list-style-type: none;
+}
+
+.textBsiCourse li,
+.textTadsCourse li {
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.contentBsiCourse button,
+.contentTadsCourse button {
+  border-radius: 10px;
+  background: #e4e5ff;
+  color: #0002fe;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  padding: 8px;
+  width: 210px;
+  height: 45px;
+  border: none;
+}
+
+li {
+  display: flex;
+  gap: 8px;
+}
+
+.contentAreas {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.contentAreas h2 {
+  color: #0002fe;
+  font-family: "roboto", sans-serif;
+  font-weight: 900;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.areas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.area {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #0002fe;
+}
+
+.memberContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.member {
+  display: inline-block;
+  vertical-align: top;
+  width: calc(
+    15% - 20px
+  ); /* Altera quantidade máxima de elementos que vão aprecer por linha */
+  text-align: center;
+  background-color: #e4e5ff; /* Acredito que isso seja azul, mas não tenho certeza - Gui */
+  padding: 10px;
+  border-radius: 5%;
+}
+
+.member img {
+  width: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.memberName {
+  color: #0002fe;
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+.contentContact {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 32px;
+}
+
+.contact h3 {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 500;
+  padding: 16px 0 16px 0;
+}
+
+.contact div {
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+}
+
+.contact div a {
+  text-decoration: none;
+  color: white;
+}
