@@ -4,8 +4,6 @@
     display: inline-block;
     padding: 10px 20px;
     border-radius: 5px;
-    background-color: #0108F8;
-    color: #ffffff;
     text-align: center;
     text-decoration: none;
     font-size: 12px;
@@ -17,39 +15,8 @@
     transition: all 0.3s ease-in-out;
   }
   
-  .button:hover {
-    background-color: #0108F8;
-  }
-  
   .button:active {
-    background-color: #0108F8;
     transform: translateY(2px);
   }
 
-  .button{
-    display: inline-block;
-    padding: 10px 20px;
-    border-radius: 5px;
-    background-color: #0108F8;
-    color: #ffffff;
-    text-align: center;
-    text-decoration: none;
-    font-size: 12px;
-    font-weight: bold;
-    border: none;
-    cursor: pointer;
-    font-family: Roboto;
-    box-sizing: border-box;
-    transition: all 0.3s ease-in-out;
-  }
-  
-  .button:hover {
-    background-color: #0108F8;
-  }
-  
-  .button:active {
-    background-color: #0108F8;
-    transform: translateY(2px);
-  }
-  
   
