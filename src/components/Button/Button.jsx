@@ -1,6 +1,6 @@
 import './style.css'
 
-const Button = ({ label, color, backgroundColor, border, borderColor }) => {
+const ButtonSite = ({ label, color, backgroundColor, border, borderColor }) => {
     const styles = {
       button: {
         display: 'flex',
@@ -20,4 +20,4 @@ const Button = ({ label, color, backgroundColor, border, borderColor }) => {
     );
   };
   
-  export default Button;
+  export default ButtonSite;
