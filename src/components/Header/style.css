@@ -11,7 +11,7 @@
 /* Estilos da home */
 
 .homeBackground {
-    background: url('../../assets/background1.png') no-repeat top center;
+    background: url('../../../public/assets/images/capaDegradeHome.png') no-repeat;
     height: 51rem;
     width: 1440px;
     margin: auto;
@@ -40,7 +40,7 @@
 /* Estilos genericos */
 
 .genericBackground {
-    background: url('../../assets/background2.png') no-repeat top center;
+    background: url('../../../public/assets/images/capaDegradeGenerica.png') no-repeat;
     width: 1440px;
     height: 35rem;
     margin: auto;
