@@ -1,5 +1,5 @@
 import Menu from "../Menu";
-import ricoImage from "../../assets/rico.png";
+import ricoImage from "../../../public/assets/images/PinguimHome.png";
 import "./style.css";
 
 /* 

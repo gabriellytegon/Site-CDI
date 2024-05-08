@@ -1,5 +1,5 @@
 import './style.css'
-import logoCDI from '../../assets/logo-cdi.svg'
+import logoCDI from '../../../public/assets/images/logoCdi.svg'
 
 /*
     Este é o componente Menu, por padrão ele utilizará a opção para home page.
