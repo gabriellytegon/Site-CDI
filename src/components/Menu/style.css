@@ -30,17 +30,19 @@
 
 .navigationHome nav ul, .navigationHome nav {
     height: 100%;
+    margin-left: 2rem;
 }
 
 .navigationGeneric nav ul, .navigationGeneric nav {
     height: 100%;
+    margin-left: 2rem;
 }
 
 .navigationHome nav ul, .navigationGeneric nav ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 1.6rem;
 }
 
 .navigationHome nav ul li, .navigationGeneric nav ul li {

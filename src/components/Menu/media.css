@@ -2,6 +2,18 @@
     .navigationHome nav ul li a, .navigationGeneric nav ul li a{
         font-size: 1.1rem;
     }
+
+    .navigationHome nav ul, .navigationGeneric nav ul {
+        gap: 2rem;
+    }
+
+    .navigationHome nav ul, .navigationHome nav {
+        margin-left: 5rem;
+    }
+
+    .navigationGeneric nav ul, .navigationGeneric nav {
+        margin-left: 5rem;
+    }
 }
 
 @media screen and (min-width: 1480px) {
@@ -14,5 +26,23 @@
     }
     .navigationHome nav ul li a, .navigationGeneric nav ul li a{
         font-size: 1.2rem;
+    }
+
+    .navigationHome nav ul, .navigationHome nav {
+        margin-left: 5.5rem;
+    }
+
+    .navigationGeneric nav ul, .navigationGeneric nav {
+        margin-left: 5.5rem;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .navigationHome nav ul, .navigationHome nav {
+        margin-left: 7rem;
+    }
+
+    .navigationGeneric nav ul, .navigationGeneric nav {
+        margin-left: 7rem;
     }
 }
