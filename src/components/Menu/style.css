@@ -1,6 +1,7 @@
 .menu {
     margin: auto;
-    width: 1440px;
+    min-width: 1024px;
+    width: 100%;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -14,11 +15,17 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 160px;
+    width: 20%;
+}
+
+#logoCDI {
+    width: calc(100vw*.08);
+    min-width: calc(1024px*.08);
+    max-width: calc(1200px*.08);
 }
 
 .navigationHome, .navigationGeneric {
-    width: 60%;
+    width: 80%;
 }
 
 .navigationHome nav ul, .navigationHome nav {
@@ -43,4 +50,5 @@
 .navigationHome nav ul li a, .navigationGeneric nav ul li a{
     text-decoration: none;
     color: #fff;
+    font-size: 1.05rem;
 }

@@ -1,4 +1,5 @@
 import './style.css'
+import './media.css'
 import logoCDI from '../../assets/icons/logoCDI.svg'
 
 /*
@@ -19,6 +20,7 @@ const Menu = ({forHome='yes'}) => {
                 <img
                     src={logoCDI}
                     alt="Logotipo da Comissão Discente de Informática"
+                    id='logoCDI'
                 />
                 </div>
             </div>

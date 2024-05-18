@@ -1,0 +1,14 @@
+@media screen and (min-width: 1280px) {
+    .navigationHome nav ul li a, .navigationGeneric nav ul li a{
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (min-width: 1480px) {
+    .navigationHome nav ul, .navigationGeneric nav ul {
+        gap: 2.5rem;
+    }
+    .navigationHome nav ul li a, .navigationGeneric nav ul li a{
+        font-size: 1.2rem;
+    }
+}
