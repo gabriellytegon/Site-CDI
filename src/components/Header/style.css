@@ -8,13 +8,16 @@
 .homeBackground {
     font-family: 'Roboto', sans-serif;
     background: url('../../assets/images/capaDegradeHome.png') no-repeat;
-    height: 51rem;
-    width: 1440px;
-    margin: auto;
+    background-size: contain;
+    height: calc(100vw/1.85);
+    min-width: 1024px;
+    min-height: calc(1024px/1.85);
+    width: 100vw;
 }
 
 .homeContentArea {
-    height: 60%;
+    height: calc((100vw/1.85)*0.55);
+    min-height: calc((1024px/1.85)*0.55);
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -22,19 +25,15 @@
     color: #fff;
 }
 
-.genericContentArea{
-    color: #fff;
+.homeContentArea h1 {
+    font-size: 4rem;
 }
 
-.homeContentArea h1, .genericContentArea h1 {
-    font-size: 4.375rem;
-}
-
-.homeContentArea h2, .genericContentArea h2 {
-    font-size: 1.875rem;
+.homeContentArea h2 {
+    font-size: 1.8rem;
 }
 .homeContentArea h3, .genericContentArea h3 {
-    font-size: 1.25rem;
+    font-size: 1.2rem;
     margin-bottom: .8rem;
 }
 
@@ -43,9 +42,25 @@
 .genericBackground {
     font-family: 'Roboto', sans-serif;
     background: url('../../assets/images/capaDegradeGenerica.png') no-repeat;
-    width: 1440px;
-    height: 35rem;
+    background-size: contain;
+    height: calc(100vw/2.6);
     margin: auto;
+}
+
+.genericContentArea{
+    height: calc((100vw/1.85)*0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.genericContentArea h1 {
+    font-size: 3.8rem;
+}
+
+.genericContentArea h2 {
+    font-size: 1.5rem;
 }
 
 .hidden {
@@ -55,4 +70,9 @@
 .alignCenter {
     margin-top: 1rem;
     text-align: center;
+}
+
+#penguim {
+    width: calc(20vw);
+    min-width: calc(1024px*0.2);
 }

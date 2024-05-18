@@ -1,6 +1,7 @@
 import Menu from "../Menu";
 import ricoImage from "../../assets/images/PinguimHome.png";
 import "./style.css";
+import "./media.css"
 
 /* 
   Este é o componente Header, ele vai no topo de cada página, se não passado nenhum parametro, por padrão ele renderizará 
@@ -27,7 +28,7 @@ const Header = ({ title = "", content = "" }) => {
               </div>
             </article>
             <aside className={title == '' && content == '' ? "" : "hidden"}>
-              <img src={ricoImage} alt="imagem do pinguim rico" />
+              <img src={ricoImage} alt="imagem do pinguim rico" id="penguim"/>
             </aside>
           </div>
         </div>
