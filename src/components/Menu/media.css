@@ -5,6 +5,10 @@
 }
 
 @media screen and (min-width: 1480px) {
+    .navigationHome, .navigationGeneric {
+        width: 75%;
+    }
+
     .navigationHome nav ul, .navigationGeneric nav ul {
         gap: 2.5rem;
     }
