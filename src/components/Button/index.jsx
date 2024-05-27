@@ -1,13 +1,18 @@
 import './style.css'
-import { Button } from "./Button";
-export { Button };
 
-const Button = () => {
+// eslint-disable-next-line react/prop-types
+const Button = ({buttonText, link, option, width, fontSize}) => {
     return (
-      <div>
-        <Button1 label="Botão Azul Escuro" color="light" backgroundColor="#0108F8" />
-        <Button2 label="Botão Azul Claro" color="light" backgroundColor="#E4E5FF" border={2} borderColor="#0108F8" />
-      </div>
+      <a 
+        href={link} 
+        target="_blank" 
+        rel='noreferrer'
+        id='button'
+        className={option == 0 ? 'button1' : option == 1 ? 'button2' : ''}
+        style={{width: width, fontSize: fontSize}}
+      >
+        {buttonText}
+      </a>
     );
   };
   
