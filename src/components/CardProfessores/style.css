@@ -1,0 +1,37 @@
+:root{
+    --text-color: #000;
+    --text-blue: #0108F8;
+    --background-color: #fff;
+}
+
+.cardProfessores{
+    margin: 5% 10%;
+    padding: 0;
+    display: flex;
+    background-color: var(--background-color);
+    height: 150px;
+}
+
+.cardProfessores_txt{
+    padding: 30px;
+    width: 100%;
+}
+
+.cardProfessores_txt h1{
+    color: var(--text-blue);
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    margin: 10px 0px 30px 0px;
+}
+
+.cardProfessores_txt p, .cardProfessores a:active, .cardProfessores a:visited, .cardProfessores a:link{
+    color: var(--text-color);
+    font-size: 16px ;
+    font-family: 'Roboto', sans-serif;
+    margin: 10px 0;
+}
+
+.cardProfessores a:hover{
+    color: var(--text-blue);
+}
