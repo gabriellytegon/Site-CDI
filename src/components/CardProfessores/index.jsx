@@ -16,4 +16,5 @@ function CardProfessores({nome, pesquisa, lattes, prof, foto, alt}){
 
 export default CardProfessores
 
+// 
 {/* <CardProfessores nome="Marcos" pesquisa="AJSJAJKASJK" lattes="lalala" prof="sddadw" foto="https://static.escolakids.uol.com.br/2019/07/lontra.jpg" alt="adwwwd"></CardProfessores> */}

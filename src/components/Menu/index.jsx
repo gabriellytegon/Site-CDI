@@ -34,7 +34,7 @@ const Menu = ({forHome='yes'}) => {
                     <a href="#">Eventos</a>
                     </li>
                     <li>
-                    <a href="#">Professores</a>
+                    <a href="../../pages/professores/index.jsx">Professores</a>
                     </li>
                     <li>
                     <a href="#">Guia para ingressantes</a>
