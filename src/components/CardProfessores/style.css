@@ -13,7 +13,7 @@
 }
 
 .cardProfessores_txt{
-    padding: 30px;
+    padding: 15px 30px;
     width: 100%;
 }
 
@@ -30,7 +30,6 @@
     font-size: 1rem ;
     font-family: 'Roboto', sans-serif;
     margin: 10px 0;
-    text-transform: capitalize;
 }
 
 .cardProfessores a:hover{

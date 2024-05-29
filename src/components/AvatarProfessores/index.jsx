@@ -2,7 +2,9 @@ import './style.css';
 
 function AvatarProfessores({src, alt}){
     return(
-        <img className='avatar_professores' src={src} alt={alt} />
+        <div className="avatar_professores">
+            <img className='avatar_professores_img' src={src} alt={alt}/>
+        </div>
     )
 }
 

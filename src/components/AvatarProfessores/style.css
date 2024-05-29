@@ -1,4 +1,11 @@
 .avatar_professores{
-    height: 180px;
-    width: 180px;
+    height: 180px !important;
+    width: 180px !important;
+    object-fit: cover;
+}
+
+.avatar_professores_img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
