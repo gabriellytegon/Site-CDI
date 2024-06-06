@@ -1,0 +1,91 @@
+#bandeco {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 7rem;
+    /* justify-content: center; */
+}
+
+#bandeco > .title {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 30%;
+    font-family: 'Roboto', sans-serif;
+    color: #0108F8;
+}
+
+#bandeco > .title h1, #bandeco > .title h2{
+    font-weight: 600;
+}
+
+#bandeco > .content {
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+#bandeco > .content .horarios {
+    box-sizing: border-box;
+    background-color: #E4E5FF;
+    border-radius: 10px;
+    width: 44rem;
+    height: 13rem;
+    position: relative;
+    padding: 30px 60px;
+}
+
+#bandeco .horarios h3 {
+    font-family: 'Roboto', sans-serif;
+    color: #0108F8;
+    margin-bottom: 1rem;
+}
+
+#bandeco .horarios p {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.2rem;
+}
+
+.valor-bandeco {
+    margin-top: 1rem;
+}
+
+#bandeco #penguin{
+    width: 200px;
+    position: absolute;
+    top: -152px;
+    right: 60px;
+}
+
+#intercampi {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+#intercampi > article {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+#intercampi > article > h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #0108F8;
+}
+
+#intercampi > article > p {
+    text-align: justify;
+    width: 60%;
+}
