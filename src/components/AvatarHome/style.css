@@ -1,0 +1,16 @@
+.avatarHome{
+    margin: 5% 10%;
+    width: 150px;
+    padding: 0;
+}
+
+.avatarHome img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.avatarHome_p{
+    width: 150px;
+    text-align: center;
+}

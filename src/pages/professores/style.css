@@ -1,0 +1,25 @@
+:root{
+    --text-color: #000;
+    --text-blue: #0108F8;
+    --background-color: #fff;
+}
+
+.textoProfessores{
+    text-align: center;
+    margin: 3rem 15% 5rem 15%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.textoProfessores h2{
+    text-transform: capitalize;
+    color: var(--text-blue);
+    font-weight: bolder;
+    font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.textoProfessores p{
+    text-align: justify;
+    margin: 1rem 0 7rem 0;
+}
