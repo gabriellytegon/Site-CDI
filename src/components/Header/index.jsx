@@ -23,8 +23,8 @@ const Header = ({ title = "", content = "" }) => {
                 <h3 className="fw-semibold">da Faculdade de Tecnologia da UNICAMP</h3>
               </div>
               <div className="alignCenter">
-                <h1>{title}</h1>
-                <h2>{content}</h2>
+                <h1 className="fw-bold">{title}</h1>
+                <h2 className="fw-medium">{content}</h2>
               </div>
             </article>
             <aside className={title == '' && content == '' ? "" : "hidden"}>
