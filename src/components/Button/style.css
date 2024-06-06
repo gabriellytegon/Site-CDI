@@ -1,22 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+#button {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
 
-.button{
-    display: inline-block;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 12px;
-    font-weight: bold;
-    border: none;
-    cursor: pointer;
-    font-family: Roboto;
-    box-sizing: border-box;
-    transition: all 0.3s ease-in-out;
-  }
-  
-  .button:active {
-    transform: translateY(2px);
-  }
+.button1 {
+  background-color: #E4E5FF;
+  border: 1px solid #0108F8;
+  color: #0108F8;
+}
 
-  
+.button2 {
+  background-color: #0108F8;
+  color: #fff;
+  border: none;
+}
