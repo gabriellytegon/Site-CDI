@@ -1,5 +1,6 @@
 import './style.css'
 import './media.css'
+import { Link } from 'react-router-dom'
 import logoCDI from '../../assets/icons/logoCDI.svg'
 
 /*
@@ -15,7 +16,7 @@ const Menu = ({forHome='yes'}) => {
         <>
         <div className="menu">
             <div className="header">
-            <div className="logoArea">
+            <div className={forHome == 'yes' ? 'logoArea': 'genericLogoArea'}>
                 <div className="logoImage">
                 <img
                     src={logoCDI}
@@ -28,7 +29,7 @@ const Menu = ({forHome='yes'}) => {
                 <nav>
                 <ul>
                     <li>
-                    <a href="#">Sobre nós</a>
+                        <Link to={'/'}>Sobre nós</Link>
                     </li>
                     <li>
                     <a href="#">Eventos</a>
@@ -40,7 +41,7 @@ const Menu = ({forHome='yes'}) => {
                     <a href="#">Guia para ingressantes</a>
                     </li>
                     <li>
-                    <a href="#">Vida no campus</a>
+                        <Link to={'/vidanocampus'}>Vida no campus</Link>
                     </li>
                     <li>
                     <a href="#">Contato</a>
