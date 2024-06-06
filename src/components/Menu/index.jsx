@@ -32,10 +32,10 @@ const Menu = ({forHome='yes'}) => {
                         <Link to={'/'}>Sobre nós</Link>
                     </li>
                     <li>
-                    <a href="#">Eventos</a>
+                        <Link to={'/eventos'}>Eventos</Link>
                     </li>
                     <li>
-                    <a href="#">Professores</a>
+                        <Link to={'/professores'}>Professores</Link>
                     </li>
                     <li>
                     <a href="#">Guia para ingressantes</a>
