@@ -21,7 +21,7 @@ const VidaNoCampus = () => {
                 <div className="content">
                     <div className="horarios">
                         <img src={penguin} alt="imagem de penguim acenando" id="penguin"/>
-                        <h3>Horários</h3>
+                        <h3 className="fw-semibold">Horários</h3>
                         <p><img src={checkIcon} alt="icone de check" /> Café da manhã: das 07h00 às 08h30</p>
                         <p><img src={checkIcon} alt="icone de check" /> Almoço: das 10h30 às 14h00</p>
                         <p><img src={checkIcon} alt="icone de check" /> Jantar: das 17h30 às 19h45</p>
@@ -41,7 +41,7 @@ const VidaNoCampus = () => {
                 <article>
                     <h1>Intercamp</h1>
 
-                    <p>
+                    <p className="w-75">
                         O ônibus intercamp é um transporte gratuito cedido pela UNICAMP que
                          possibilita que a comunidade da UNICAMP em Limeira (FT, FCA e Cotil) 
                         tenha acesso às atividades que ocorrem no campus de Barão Geraldo.
