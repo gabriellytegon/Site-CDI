@@ -1,11 +1,11 @@
-.menu {
+.menuMenu {
     margin: auto;
     min-width: 1024px;
     width: 100%;
     font-family: 'Roboto', sans-serif;
 }
 
-.header {
+.menuheader {
     display: flex;
     justify-content: space-between;
     height: 8rem;

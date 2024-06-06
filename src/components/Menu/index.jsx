@@ -14,8 +14,8 @@ import logoCDI from '../../assets/icons/logoCDI.svg'
 const Menu = ({forHome='yes'}) => {
     return (
         <>
-        <div className="menu">
-            <div className="header">
+        <div className="menuMenu">
+            <div className="menuHeader">
             <div className={forHome == 'yes' ? 'logoArea': 'genericLogoArea'}>
                 <div className="logoImage">
                 <img
