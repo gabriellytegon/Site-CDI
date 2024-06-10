@@ -7,7 +7,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 50px;
+  padding: 15px 40px;
 }
 
 .button1 {
