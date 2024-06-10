@@ -89,3 +89,19 @@
     text-align: justify;
     width: 60%;
 }
+
+#more {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.video-container {
+    margin: auto;
+    margin-top: 3rem;
+    background-color: rgb(197, 197, 197);
+    width: 60%;
+    max-width: 750px;
+    height: 400px;
+}
