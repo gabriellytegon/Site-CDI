@@ -30,7 +30,7 @@ const VidaNoCampus = () => {
                     <Button 
                         buttonText={"Clique para acessar o cardápio do dia"}
                         fontSize={14}
-                        link={"#"}
+                        link={"https://www.prefeituralimeira.unicamp.br/restaurante-universitario/"}
                         option={1}
                         width={400}
                     />
@@ -58,7 +58,7 @@ const VidaNoCampus = () => {
                         buttonText={"Clique para fazer a reserva"}
                         width={400}
                         fontSize={14}
-                        link={'#'}
+                        link={'https://sistemas.ft.unicamp.br/intercamp/'}
                         option={0}
                     />
                 </article>
@@ -69,10 +69,12 @@ const VidaNoCampus = () => {
 
             <div id="more">
                 <div className="title">
-                    <h2>Conheça mais sobre o campus da FT:</h2>
+                    <h2 className="fw-bold text-center h-25">Conheça mais sobre o campus da FT:</h2>
                 </div>
                 <div className="content">
-                    <video src=""></video>
+                    <div className="video-container">
+                        <video src=""></video>
+                    </div>
                 </div>
             </div>
         </>
