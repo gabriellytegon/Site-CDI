@@ -20,6 +20,7 @@
     font-weight: bold;
     color: #0108f8;
 }
+
 .aling-card{
     display: flex;
     justify-content: center;
@@ -31,3 +32,11 @@
         margin-bottom: 40px;
     }
 }
+
+.square {
+    margin-right: 5px;
+    width: 24%;
+    height: 200px;
+    background-color: #d9d9d9;
+    margin-bottom: 50px;
+  }

@@ -1,21 +1,38 @@
 import Header from "../../components/Header";
 import "./style.css";
 import CardEvento from "../../components/CardEvento";
+import Carrocel from "../../components/CardCarousel";
 
 
 const Eventos = () => {
+    const photos = [
+        "https://via.placeholder.com/150",
+        "https://via.placeholder.com/150",
+        "https://via.placeholder.com/150",
+        "https://via.placeholder.com/150",
+        "https://via.placeholder.com/150",
+    ];
+
     return (
         <>
-            <Header title="Eventos" content="Fique por dentro dos principais eventos da FT!"/>
+            <Header title="Eventos" content="Fique por dentro dos principais eventos da FT!" />
 
             <div className="container-fluid mb-5 mt-5">
                 <div className="row justify-content-center">
                     <div className="col-8 pt-3">
                         <h2 className="title text-center mb-3">Eventos já realizados</h2>
                         <p>A CDI é campeã em proporcionar experiências ÚNICAS e TRANSFORMADORAS. Acreditamos no poder da vivência a cima de tudo e por isso sempre nos preocupamos em preparar atividades imersivas aos alunos.</p>
+                        <div className="d-flex mt-5">
+                            <div className="square"></div>
+                            <div className="square"></div>
+                            <div className="square"></div>
+                            <div className="square"></div>
+                        </div>
                     </div>
+
                 </div>
             </div>
+
 
 
             <div className="container-fluid mb-5">
