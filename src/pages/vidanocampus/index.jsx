@@ -1,7 +1,6 @@
 import Header from "../../components/Header";
 import Button from "../../components/Button";
 import penguin from '../../assets/images/Pinguim.jpeg'
-import checkIcon from '../../assets/icons/checkIcon.svg'
 import './style.css'
 import './media.css'
 
@@ -21,11 +20,27 @@ const VidaNoCampus = () => {
                 <div className="content">
                     <div className="horarios">
                         <img src={penguin} alt="imagem de penguim acenando" id="penguin"/>
-                        <h3 className="fw-semibold">Horários</h3>
-                        <p><img src={checkIcon} alt="icone de check" /> Café da manhã: das 07h00 às 08h30</p>
-                        <p><img src={checkIcon} alt="icone de check" /> Almoço: das 10h30 às 14h00</p>
-                        <p><img src={checkIcon} alt="icone de check" /> Jantar: das 17h30 às 19h45</p>
-                        <p className="valor-bandeco">Valor: R$3,00</p>
+                        <div className="bandeco-box cafe-da-manha">
+                            <h3 className="fw-bold text-center">Café da manhã</h3>
+                            <div>
+                                <p>Horário: <b>07:00 - 08:30</b></p>
+                                <p>Valor: <b>R$ 2,00</b></p>
+                            </div>
+                        </div>
+                        <div className="bandeco-box almoco">
+                            <h3 className="fw-bold text-center">Almoço</h3>
+                            <div>
+                                <p>Horário: <b>11:00 - 14:00</b></p>
+                                <p>Valor: <b>R$ 3,00</b></p>
+                            </div>
+                        </div>
+                        <div className="bandeco-box jantar">
+                            <h3 className="fw-bold text-center">Jantar</h3>
+                            <div>
+                                <p>Horário: <b>18:00 - 19:45</b></p>
+                                <p>Valor: <b>R$ 3,00</b></p>
+                            </div>
+                        </div>
                     </div>
                     <Button 
                         buttonText={"Clique para acessar o cardápio do dia"}
