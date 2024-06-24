@@ -12,7 +12,6 @@
     height: calc(100vw/1.85);
     min-width: 1024px;
     min-height: calc(1024px/1.85);
-    width: 100vw;
 }
 
 .homeContentArea {
