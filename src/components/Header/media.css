@@ -33,23 +33,23 @@
     }
 
     .homeContentArea h1 {
-        font-size: 4.7rem;
+        font-size: 4.4rem;
     }
     
     .homeContentArea h2 {
-        font-size: 2.5rem;
+        font-size: 2.2rem;
     }
     .homeContentArea h3 {
-        font-size: 1.9rem;
-        margin-bottom: .8rem;
+        font-size: 1.6rem;
+        margin-bottom: .5rem;
     }
 
     .genericContentArea h1 {
-        font-size: 4.4rem;
+        font-size: 4.1rem;
     }
 
     .genericContentArea h2 {
-        font-size: 2.1rem;
+        font-size: 1.8rem;
     }
 }
 
@@ -60,23 +60,23 @@
     }
 
     .homeContentArea h1 {
-        font-size: 5rem;
+        font-size: 4.7rem;
     }
     
     .homeContentArea h2 {
-        font-size: 2.8rem;
+        font-size: 2.5rem;
     }
 
     .homeContentArea h3 {
-        font-size: 2.2rem;
-        margin-bottom: .8rem;
+        font-size: 1.9rem;
+        margin-bottom: .5rem;
     }
 
     .genericContentArea h1 {
-        font-size: 5rem;
+        font-size: 4.7rem;
     }
     
     .genericContentArea h2 {
-        font-size: 2.8rem;
+        font-size: 2.5rem;
     }
 }
