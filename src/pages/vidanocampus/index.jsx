@@ -1,5 +1,6 @@
 import Header from "../../components/Header";
 import Button from "../../components/Button";
+import Cardapio from "../../components/Cardapio";
 import penguin from '../../assets/images/Pinguim.jpeg'
 import './style.css'
 import './media.css'
@@ -13,44 +14,38 @@ const VidaNoCampus = () => {
             />
 
             <div id="bandeco">
-                <div className="title">
-                    <h1>Bandeco</h1>
-                    <h2>Vulgo bandejão</h2>
-                </div>
                 <div className="content">
                     <div className="horarios">
                         <img src={penguin} alt="imagem de penguim acenando" id="penguin"/>
-                        <div className="bandeco-box cafe-da-manha">
-                            <h3 className="fw-bold text-center">Café da manhã</h3>
-                            <div>
-                                <p>Horário: <b>07:00 - 08:30</b></p>
-                                <p>Valor: <b>R$ 2,00</b></p>
+                        <h2 className="fw-bold">Você não vai perder o bandeco né?!</h2>
+                        <div className="bandeco-horarios">
+                            <div className="bandeco-box cafe-da-manha">
+                                <h3 className="fw-bold text-center">Café da manhã</h3>
+                                <div>
+                                    <p>Horário: <b>07:00 - 08:30</b></p>
+                                    <p>Valor: <b>R$ 2,00</b></p>
+                                </div>
                             </div>
-                        </div>
-                        <div className="bandeco-box almoco">
-                            <h3 className="fw-bold text-center">Almoço</h3>
-                            <div>
-                                <p>Horário: <b>11:00 - 14:00</b></p>
-                                <p>Valor: <b>R$ 3,00</b></p>
+                            <div className="bandeco-box almoco">
+                                <h3 className="fw-bold text-center">Almoço</h3>
+                                <div>
+                                    <p>Horário: <b>11:00 - 14:00</b></p>
+                                    <p>Valor: <b>R$ 3,00</b></p>
+                                </div>
                             </div>
-                        </div>
-                        <div className="bandeco-box jantar">
-                            <h3 className="fw-bold text-center">Jantar</h3>
-                            <div>
-                                <p>Horário: <b>18:00 - 19:45</b></p>
-                                <p>Valor: <b>R$ 3,00</b></p>
+                            <div className="bandeco-box jantar">
+                                <h3 className="fw-bold text-center">Jantar</h3>
+                                <div>
+                                    <p>Horário: <b>18:00 - 19:45</b></p>
+                                    <p>Valor: <b>R$ 3,00</b></p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <Button 
-                        buttonText={"Clique para acessar o cardápio do dia"}
-                        fontSize={14}
-                        link={"https://www.prefeituralimeira.unicamp.br/restaurante-universitario/"}
-                        option={1}
-                        width={400}
-                    />
                 </div>
+                <Cardapio></Cardapio>
             </div>
+
 
             <div id="intercampi">
                 <article>
