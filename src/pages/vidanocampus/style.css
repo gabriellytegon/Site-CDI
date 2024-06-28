@@ -1,5 +1,5 @@
 #bandeco {
-    height: 80vh;
+    height: 150vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -33,27 +33,35 @@
 
 #bandeco > .content .horarios {
     display: flex;
-    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+    flex-direction: column;
     box-sizing: border-box;
     background-color: #E4E5FF;
+    border: 1px solid #0108F8;
     border-radius: 10px;
     width: 80vw;
     max-width: 60rem;
     min-width: 50rem;
-    height: 15rem;
+    height: 24rem;
     position: relative;
     padding: 30px 60px;
-    justify-content: space-between;
 }
 
 .bandeco-box {
     background-color: white;
     border: 1px solid #0108F8;
     border-radius: 20px;
-    padding: 20px 20px;
-    width: 33%;
-    min-width: 200px;
+    padding: 22px 22px;
+    width: 40%;
+    height: 180px;
+    min-width: 230px;
     max-width: 250px;
+}
+
+.bandeco-horarios {
+    display: flex;
+    gap: 2rem;
 }
 
 #bandeco .horarios h3 {
@@ -61,6 +69,11 @@
     color: #0108F8;
     margin-bottom: 1rem;
     font-size: 1rem;
+}
+
+#bandeco .horarios h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #0108F8;
 }
 
 #bandeco .horarios p {
@@ -73,6 +86,7 @@
     position: absolute;
     top: -152px;
     right: 60px;
+    z-index: -1;
 }
 
 #intercampi {
