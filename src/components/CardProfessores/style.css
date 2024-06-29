@@ -36,7 +36,7 @@
 
 @media (max-width: 599px) {
     .cardProfessores_txt h1{
-        font-size: 1.3rem;
+        font-size: 1rem;
         max-height: 75px; 
         overflow: hidden; 
         display: -webkit-box;
@@ -64,7 +64,7 @@
 
 @media (min-width: 600px) and (max-width: 999px) {
     .cardProfessores_txt h1{
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         max-height: 24px; 
         overflow: hidden;
         -webkit-box-orient: vertical;
@@ -95,7 +95,7 @@
 /* Media para Desktop */
 @media (min-width: 1000px){
     .cardProfessores_txt h1{
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     } 
     .cardProfessores_txt p, .cardProfessores a:active, .cardProfessores a:visited, .cardProfessores a:link{
         font-size: 1rem ;
