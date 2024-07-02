@@ -7,11 +7,20 @@
 
 .homeBackground {
     font-family: 'Roboto', sans-serif;
-    background: url('../../assets/images/capaDegradeHome.png') no-repeat;
-    background-size: contain;
+    background-image: linear-gradient(to top, #00B5FF 20%, #000FFE, #0108F8);
+    /* background: url('../../assets/images/capaDegradeHome.png') no-repeat; */
+    /* background-size: contain; */
     height: calc(100vw/1.85);
     min-width: 1024px;
     min-height: calc(1024px/1.85);
+    position: relative;
+}
+
+.homeBackground svg {
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
 }
 
 .homeContentArea {
@@ -40,10 +49,19 @@
 
 .genericBackground {
     font-family: 'Roboto', sans-serif;
-    background: url('../../assets/images/capaDegradeGenerica.png') no-repeat;
-    background-size: contain;
-    height: calc(100vw/2.6);
+    background-image: linear-gradient(blue, white);
+    /* background: url('../../assets/images/capaDegradeGenerica.png') no-repeat; */
+    /* background-size: contain; */
+    height: calc(100vw/2.3);
     margin: auto;
+    position: relative;
+}
+
+.genericBackground svg {
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
 }
 
 .genericContentArea{
