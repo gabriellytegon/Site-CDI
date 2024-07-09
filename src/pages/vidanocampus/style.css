@@ -41,9 +41,9 @@
     border: 1px solid #0108F8;
     border-radius: 10px;
     width: 80vw;
-    max-width: 60rem;
-    min-width: 50rem;
-    height: 24rem;
+    max-width: 52rem;
+    min-width: 350px;
+    /* height: 24rem; */
     position: relative;
     padding: 30px 60px;
 }
@@ -55,13 +55,17 @@
     padding: 22px 22px;
     width: 40%;
     height: 180px;
-    min-width: 230px;
-    max-width: 250px;
+    min-width: 220px;
+    max-width: 220px;
 }
 
 .bandeco-horarios {
     display: flex;
-    gap: 2rem;
+    flex-wrap: wrap;
+    width: 100%;
+    /* gap: 1rem; */
+    justify-content: space-between;
+    row-gap: 1rem;
 }
 
 #bandeco .horarios h3 {
