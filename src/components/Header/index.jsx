@@ -22,7 +22,7 @@ const Header = ({ title = "", content = "" }) => {
                 <h1 className="fw-bold">INFORMÁTICA</h1>
                 <h3 className="fw-semibold">da Faculdade de Tecnologia da UNICAMP</h3>
               </div>
-              <div className="alignCenter">
+              <div className="header-content alignCenter">
                 <h1 className="fw-bold">{title}</h1>
                 <h2 className="fw-medium">{content}</h2>
               </div>
