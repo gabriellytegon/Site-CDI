@@ -3,6 +3,7 @@ import './media.css'
 import { Link } from 'react-router-dom'
 import logoCDI from '../../assets/icons/logoCDI.svg'
 import menuIcon from '../../assets/icons/menuIcon.svg'
+import { useState } from 'react'
 
 /*
     Este é o componente Menu, por padrão ele utilizará a opção para home page.
@@ -13,6 +14,29 @@ import menuIcon from '../../assets/icons/menuIcon.svg'
 
 // eslint-disable-next-line react/prop-types
 const Menu = ({forHome='yes'}) => {
+
+    const [windowWidth] = useState(window.innerWidth);
+    const [isOpen, setIsOpen] = useState(windowWidth < 1000 ? false : true);
+
+
+    function openNavigation() {
+        if (isOpen) {
+            setIsOpen(false);
+        } else {
+            setIsOpen(true);
+        }
+    }
+
+    document.addEventListener('scroll', () => {
+        setIsOpen(false)
+    })
+
+    // document.addEventListener('click', (e) => {
+    //     if (e.target != list) {
+    //         // setIsOpen(false)
+    //     }
+    // })
+    
     return (
         <>
         <div className="menuMenu">
@@ -27,10 +51,10 @@ const Menu = ({forHome='yes'}) => {
                     </div>
                 </div>
                 <div className={forHome == 'yes' ? 'navigationHome' : forHome == 'no' ? 'navigationGeneric': ''}>
-                    <div className={"menuIcon"}>
+                    <div className={"menuIcon"} onClick={openNavigation}>
                         <img src={menuIcon} id='menuIcon'/>
                     </div>
-                    <nav>
+                    <nav style={{display: isOpen ? 'block' : 'none'}} id='navbar'>
                         <ul>
                             <li>
                                 <Link to={'/'}>Sobre nós</Link>
