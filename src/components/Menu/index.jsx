@@ -28,7 +28,9 @@ const Menu = ({forHome='yes'}) => {
     }
 
     document.addEventListener('scroll', () => {
-        setIsOpen(false)
+        if (windowWidth < 1000) {
+            setIsOpen(false);
+        }
     })
 
     // document.addEventListener('click', (e) => {
