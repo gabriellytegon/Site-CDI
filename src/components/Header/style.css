@@ -7,7 +7,7 @@
 
 .homeBackground {
     font-family: 'Roboto', sans-serif;
-    background-image: linear-gradient(to top, #00B5FF 20%, #000FFE, #0108F8);
+    background-image: linear-gradient(to top, #00cfff, #0058b0, #0002fe);
     /* background: url('../../assets/images/capaDegradeHome.png') no-repeat; */
     /* background-size: contain; */
     height: calc(100vw/1.85);
@@ -29,7 +29,6 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    overflow: hidden;
     color: #fff;
 }
 
@@ -49,7 +48,7 @@
 
 .genericBackground {
     font-family: 'Roboto', sans-serif;
-    background-image: linear-gradient(blue, white);
+    background-image: linear-gradient(to top, #00cfff, #0058b0, #0002fe);
     /* background: url('../../assets/images/capaDegradeGenerica.png') no-repeat; */
     /* background-size: contain; */
     height: calc(100vw/2.3);
