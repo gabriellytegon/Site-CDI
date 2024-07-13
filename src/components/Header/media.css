@@ -52,8 +52,7 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
-
-        margin-top: 6rem;
+        margin-top: 2rem;
     }
 
     #penguim {
@@ -93,8 +92,7 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
-
-        margin-top: 6rem;
+        margin-top: 1rem;
     }
 
     #penguim {
