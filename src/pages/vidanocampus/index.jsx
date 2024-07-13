@@ -4,6 +4,7 @@ import Cardapio from "../../components/Cardapio";
 import penguin from '../../assets/images/Pinguim.jpeg'
 import './style.css'
 import './media.css'
+import Footer from "../../components/Footer";
 
 const VidaNoCampus = () => {
     return (
@@ -87,6 +88,7 @@ const VidaNoCampus = () => {
                     </div>
                 </div>
             </div>
+            <Footer></Footer>
         </>
     );
 }
