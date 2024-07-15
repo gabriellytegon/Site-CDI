@@ -128,11 +128,13 @@
     margin-top: 15vh;
 }
 
+#more .title h2 {
+    margin-bottom: 2rem;
+}
+
 .video-container {
-    margin: auto;
-    margin-top: 3rem;
-    background-color: rgb(197, 197, 197);
-    width: 60%;
-    max-width: 750px;
-    height: 400px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

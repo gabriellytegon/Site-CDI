@@ -5,11 +5,7 @@
 
     #more .title h2 {
         font-size: 1.3rem;
-    }
-
-    .video-container {
-        width: 80%;
-        height: 250px;
+        margin-bottom: 2rem;
     }
 
     #bandeco {
@@ -27,6 +23,11 @@
         color: #0108F8;
         font-size: 1.5rem;
         text-align: center;
+    }
+
+    .video-container iframe {
+        width: 350px;
+        height: 200px;
     }
 }
 
