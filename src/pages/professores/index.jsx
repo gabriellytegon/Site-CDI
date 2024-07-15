@@ -1,7 +1,7 @@
 import "./style.css"
 import Header from "../../components/Header";
 import CardProfessores from "../../components/CardProfessores";
-// import Footer from "../../components/Footer"
+import Footer from "../../components/Footer"
 
 const Professores = () => {
     return(
@@ -51,7 +51,7 @@ const Professores = () => {
 
             <CardProfessores nome="Vitor Rafael Coluci" pesquisa="" lattes="http://lattes.cnpq.br/5495322642019035" foto="https://www3.ft.unicamp.br/sites/default/files/fotosDocentes/victor.jpg" alt="Foto Prof. Coluci"></CardProfessores>
 
-            <br></br><br></br><br></br>
+            <Footer></Footer>
         </>
     )
 }

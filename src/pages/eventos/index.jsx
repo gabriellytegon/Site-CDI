@@ -2,6 +2,7 @@ import Header from "../../components/Header";
 import "./style.css";
 import CardEvento from "../../components/CardEvento";
 import Carrocel from "../../components/CardCarousel";
+import Footer from "../../components/Footer";
 
 
 const Eventos = () => {
@@ -76,6 +77,7 @@ const Eventos = () => {
                     </div>
                 </div>
             </div>
+            <Footer></Footer>
         </>
     )
 }
