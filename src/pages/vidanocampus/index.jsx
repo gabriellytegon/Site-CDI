@@ -82,10 +82,8 @@ const VidaNoCampus = () => {
                 <div className="title">
                     <h2 className="fw-bold text-center h-25">Conheça mais sobre o campus da FT:</h2>
                 </div>
-                <div className="content">
-                    <div className="video-container">
-                        <video src=""></video>
-                    </div>
+                <div className="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/8pzCYwxIW8k?si=RiomZc4J1cgAPnmz" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
             </div>
             <Footer></Footer>
