@@ -1,0 +1,132 @@
+/* Gerais */
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.2rem;
+    text-align: justify;
+}
+
+#cdi h1,
+#cursos h1,
+#equipe h1 {
+    text-align: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    color: #0108F8;
+    font-weight: 600;
+}
+
+#cursos h2,
+#conceitos h2,
+#equipe h2 {
+    text-align: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    color: #0108F8;
+    font-weight: 600;
+}
+
+/* CDI */
+
+#cdi {
+    display: grid;
+}
+
+#cdi h1 {
+    margin-bottom: 5%;
+}
+
+#cdi p {
+    margin-inline: 10%;
+}
+
+#conceitos {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-between;
+    margin-inline: 11%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.conceito {
+    background-color: #E4E5FF;
+    border: 1px solid #0108F8;
+    border-radius: 10px;
+    padding: 2%;
+}
+
+.conceito h2 {
+    margin-top: 5%;
+}
+
+#carousel {
+    margin-inline: 10%;
+}
+
+/* Cursos */
+
+#cursos {
+    display: grid;
+}
+
+#cursos h1 {
+    margin-top: 10%;
+}
+
+#bsi,
+#tads {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-inline: 10%;
+    margin-top: 5%;
+}
+
+#bsi p,
+#tads p {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#tads img {
+    justify-self: end;
+}
+
+.botao {
+    padding-inline: 25%;
+}
+
+/* Equipe */
+
+#equipe {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-bottom: 10%;
+}
+
+#equipe h1 {
+    margin-top: 15%;
+    grid-column: 1 / span 2;
+}
+
+.area h2 {
+    padding-top: 10%;
+    padding-bottom: 3%;
+}
+
+.area {
+    margin: 1%;
+    padding: 1%;
+    padding-top: 10%;
+    display: grid;
+    grid-gap: 1%;
+    grid-template-columns: 50% 50%;
+}
+
+.area h2 {
+    grid-column: 1 / span 2;
+}
+
+.membro {
+    justify-self: center;
+}
