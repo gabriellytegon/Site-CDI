@@ -9,7 +9,7 @@
     }
 
     #bandeco {
-        margin-top: 14rem !important;
+        margin-top: 7rem !important;
     }
 
     .bandeco-horarios {
@@ -37,7 +37,7 @@
     }
 
     #intercampi {
-        height: 60vh;
+        height: 70vh;
         margin-top: 15rem;
     }
 
@@ -55,7 +55,7 @@
     }
 
     #intercampi > article > .text-content p {
-        width: 65%;
+        width: 100%;
     }
 
     #intercampi > article > .text-content > h1 {
@@ -64,9 +64,9 @@
 
     #intercampi #penguin{
         position: absolute;
-        width: 250px;
-        top: -190px;
-        right: 50px;
+        width: 160px;
+        top: -122px;
+        right: 21px;
     }
 }
 
