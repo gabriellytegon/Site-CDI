@@ -23,7 +23,7 @@
 .menuHeader {
     display: flex;
     justify-content: space-between;
-    height: 8rem;
+    height: 7rem;
 }
 
 .genericLogoArea {
@@ -56,7 +56,7 @@
 }
 
 .navigationGeneric nav ul, .navigationGeneric nav {
-    height: 80%;
+    height: 100%;
     margin-left: 2rem;
 }
 
