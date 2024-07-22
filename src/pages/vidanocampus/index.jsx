@@ -17,7 +17,6 @@ const VidaNoCampus = () => {
             <div id="bandeco">
                 <div className="content">
                     <div className="horarios">
-                        <img src={penguin} alt="imagem de penguim acenando" id="penguin"/>
                         <h2 className="fw-bold">Você não vai perder o bandeco né?!</h2>
                         <div className="bandeco-horarios">
                             <div className="bandeco-box cafe-da-manha">
@@ -49,33 +48,34 @@ const VidaNoCampus = () => {
 
 
             <div id="intercampi">
+                <img src={penguin} alt="imagem de penguim acenando" id="penguin"/>
                 <article>
-                    <h1>Intercamp</h1>
+                    <div className="text-content">
+                        <h1>Intercamp</h1>
+                        <p>
+                            O ônibus intercamp é um transporte gratuito cedido pela UNICAMP que
+                             possibilita que a comunidade da UNICAMP em Limeira (FT, FCA e Cotil)
+                            tenha acesso às atividades que ocorrem no campus de Barão Geraldo.
+                        </p>
+                    </div>
 
-                    <p className="w-75">
-                        O ônibus intercamp é um transporte gratuito cedido pela UNICAMP que
-                         possibilita que a comunidade da UNICAMP em Limeira (FT, FCA e Cotil) 
-                        tenha acesso às atividades que ocorrem no campus de Barão Geraldo.
-                    </p>
-
-                    <Button
-                        buttonText={"Clique para consultar horários"}
-                        width={400}
-                        fontSize={14}
-                        link={'#'}
-                        option={0}
-                    />
-                    <Button
-                        buttonText={"Clique para fazer a reserva"}
-                        width={400}
-                        fontSize={14}
-                        link={'https://sistemas.ft.unicamp.br/intercamp/'}
-                        option={0}
-                    />
+                    <div className="buttons">
+                        <Button
+                            buttonText={"Clique para consultar horários"}
+                            width={400}
+                            fontSize={14}
+                            link={'#'}
+                            option={1}
+                        />
+                        <Button
+                            buttonText={"Clique para fazer a reserva"}
+                            width={400}
+                            fontSize={14}
+                            link={'https://sistemas.ft.unicamp.br/intercamp/'}
+                            option={1}
+                        />
+                    </div>
                 </article>
-                <aside>
-                    <img src="src\assets\images\bus.svg" alt="imagem ônibus" />
-                </aside>
             </div>
 
             <div id="more">

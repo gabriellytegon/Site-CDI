@@ -35,6 +35,39 @@
     #bandeco {
         margin-top: 10rem;
     }
+
+    #intercampi {
+        height: 60vh;
+        margin-top: 15rem;
+    }
+
+    #intercampi > article {
+        flex-direction: column;
+    }
+
+    #intercampi > article > .buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        width: 90%;
+        max-width: 400px;
+        padding: 20px;
+    }
+
+    #intercampi > article > .text-content p {
+        width: 65%;
+    }
+
+    #intercampi > article > .text-content > h1 {
+        font-size: 3rem;
+    }
+
+    #intercampi #penguin{
+        position: absolute;
+        width: 250px;
+        top: -190px;
+        right: 50px;
+    }
 }
 
 @media screen and (min-width: 1280px) {

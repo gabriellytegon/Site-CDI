@@ -37,8 +37,6 @@
     gap: 2rem;
     flex-direction: column;
     box-sizing: border-box;
-    background-color: #E4E5FF;
-    border: 1px solid #0108F8;
     border-radius: 10px;
     width: 80vw;
     max-width: 52rem;
@@ -85,39 +83,56 @@
     line-height: 1.2rem;
 }
 
-#bandeco #penguin{
-    width: 200px;
+#intercampi #penguin{
     position: absolute;
-    top: -152px;
-    right: 60px;
-    z-index: -1;
+    width: 250px;
+    top: -190px;
+    right: 100px;
 }
 
 #intercampi {
-    height: 50vh;
+    position: relative;
+    height: 40vh;
     display: flex;
     align-items: center;
     font-family: 'Roboto', sans-serif;
+    background-color: #E4E5FF;
+    margin-top: 13rem;
 }
 
 #intercampi > article {
-    text-align: center;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
 }
 
-#intercampi > article > h1 {
-    font-size: 2.5rem;
+#intercampi > article > .text-content > h1 {
+    font-size: 3.5rem;
     font-weight: 600;
     color: #0108F8;
+    text-align: center;
 }
 
-#intercampi > article > p {
+#intercampi > article > .text-content > p {
     text-align: justify;
-    width: 60%;
+    width: 50%;
+    text-align: justify;
+    font-size: 1.1rem;
+}
+
+#intercampi > article > .text-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#intercampi > article > .buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 90%;
+    max-width: 500px;
+    padding: 20px;
 }
 
 #more {
@@ -125,7 +140,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 15vh;
+    margin-top: 5rem;
 }
 
 #more .title h2 {
