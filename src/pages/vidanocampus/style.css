@@ -39,7 +39,7 @@
     box-sizing: border-box;
     border-radius: 10px;
     width: 80vw;
-    max-width: 52rem;
+    max-width: 55rem;
     min-width: 350px;
     /* height: 24rem; */
     position: relative;
@@ -54,7 +54,7 @@
     width: 40%;
     height: 180px;
     min-width: 220px;
-    max-width: 220px;
+    max-width: 240px;
 }
 
 .bandeco-horarios {
@@ -70,7 +70,7 @@
     font-family: 'Roboto', sans-serif;
     color: #0108F8;
     margin-bottom: 1rem;
-    font-size: 1rem;
+    font-size: 1.1rem;
 }
 
 #bandeco .horarios h2 {
@@ -81,6 +81,7 @@
 #bandeco .horarios p {
     font-family: 'Montserrat', sans-serif;
     line-height: 1.2rem;
+    font-size: 1.1rem;
 }
 
 #intercampi #penguin{
