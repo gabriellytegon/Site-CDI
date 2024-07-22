@@ -76,20 +76,29 @@ p {
 
 #bsi,
 #tads {
+    background-color: #E4E5FF;
+    border: 1px solid #0108F8;
+    border-radius: 40px;
+    padding: 5%;
     display: grid;
-    grid-template-columns: 50% 50%;
-    margin-inline: 10%;
+    margin-inline: 4%;
     margin-top: 5%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#bsi {
+    grid-template-columns: 35% 61%;
+}
+
+#tads {
+    grid-template-columns: 61% 35%;
 }
 
 #bsi p,
 #tads p {
     margin-top: 5%;
     margin-bottom: 5%;
-}
-
-#tads img {
-    justify-self: end;
 }
 
 .botao {
