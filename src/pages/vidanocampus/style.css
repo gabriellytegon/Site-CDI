@@ -3,7 +3,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 9rem;
     /* justify-content: center; */
 }
 
@@ -86,8 +85,8 @@
 
 #intercampi #penguin{
     position: absolute;
-    width: 250px;
-    top: -190px;
+    width: 200px;
+    top: -152px;
     right: 100px;
 }
 
@@ -108,7 +107,7 @@
 }
 
 #intercampi > article > .text-content > h1 {
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-weight: 600;
     color: #0108F8;
     text-align: center;
@@ -116,7 +115,7 @@
 
 #intercampi > article > .text-content > p {
     text-align: justify;
-    width: 50%;
+    width: 90%;
     text-align: justify;
     font-size: 1.1rem;
 }
@@ -125,14 +124,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 50%;
 }
 
 #intercampi > article > .buttons {
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    width: 90%;
-    max-width: 500px;
+    width: 50%;
+    max-width: 600px;
     padding: 20px;
 }
 
@@ -141,7 +141,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 5rem;
 }
 
 #more .title h2 {
