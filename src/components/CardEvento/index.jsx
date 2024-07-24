@@ -1,35 +1,30 @@
 import './style.css';
 
 function CardEvento(props) {
-    const cardStyle = {
-        width: props.width || "400px",
-        height: props.height || "80px",
-        backgroundColor: "#ffffff",
-        borderRadius: "0px 0px 7px 7px",
-        border: "2px solid #8e8ffe",
-        display: "flex",
-        justifyContent: "space-between",
-        alignItems: "center",
-        borderTop: "none",
-        padding: "0 40px 10px 40px",
-    };
-
-    const title = {
-        backgroundColor: "#ffffff",
-        width: props.width || "400px",
-        border: "2px solid #8e8ffe",
-        paddingTop: "10px",
-        borderBottom: "none",
-        borderRadius: "7px 7px 0px 0px",
-        display: "flex",
-        justifyContent: "center",
-        fontWeight: "bold",
-        fontSize: "20px"
-    }
-
     return (
         <section>
-            <div style={title}>{props.title}</div>
+            <div className='card-evento'>
+                <div className='col-8 d-flex flex-column justify-content-evenly'>
+
+                    <div className='title'>Nome do Evento <div className='subTitle'>Descrição: <span>{props.descricao}</span></div></div>
+
+                    <div className="textBody">
+                        <div className='subTitle'>Data: <span>{props.data}</span></div>
+                        <div className='subTitle'>Hora: <span>{props.hora}</span></div>
+                        <div className='subTitle mb-3'>Local: <span>{props.link}</span></div>
+                        <button type="button" class="btn btn-primary">Inscreva-se aqui</button>
+                    </div>
+
+                </div>
+                <div className='col-4 d-flex align-items-center justify-content-center'>
+                    <div className="circleImg">
+                        <img src={props.imageUrl}></img>
+                    </div>
+                </div>
+            </div>
+
+
+            {/* <div style={title}>{props.title}</div>
             <div style={cardStyle}>
 
                 <div className="textBody">
@@ -40,7 +35,7 @@ function CardEvento(props) {
                 <div className="circleImg">
                     <img src={props.imageUrl}></img>
                 </div>
-            </div>
+            </div> */}
         </section>
     );
 }

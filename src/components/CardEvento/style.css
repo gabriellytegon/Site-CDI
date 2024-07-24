@@ -6,13 +6,34 @@
 }
 
 .circleImg {
-    width: 70px;
-    height: 70px;
+    width: 140px;
+    height: 140px;
     border-radius: 50%;
     overflow: hidden;
+    background-color: rgb(207, 207, 207);
 
     img {
         width: 100%;
         height: auto;
     }
+}
+
+.title {
+    font-size: 18px;
+    font-weight: bold;
+}	
+
+.subTitle {
+    font-weight: bold;
+    font-size: 14px;
+    color: black;
+    margin-top: 5px;
+
+    span{
+        font-weight: normal;
+    }
+}	
+
+.btn-primary{
+    background-color: blue;
 }
