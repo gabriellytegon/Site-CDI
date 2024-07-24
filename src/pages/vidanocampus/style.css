@@ -1,9 +1,8 @@
 #bandeco {
-    height: 80vh;
+    height: 150vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 7rem;
     /* justify-content: center; */
 }
 
@@ -32,62 +31,109 @@
 }
 
 #bandeco > .content .horarios {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    flex-direction: column;
     box-sizing: border-box;
-    background-color: #E4E5FF;
     border-radius: 10px;
-    width: 44rem;
-    height: 15rem;
+    width: 80vw;
+    max-width: 55rem;
+    min-width: 350px;
+    /* height: 24rem; */
     position: relative;
     padding: 30px 60px;
+}
+
+.bandeco-box {
+    background-color: white;
+    border: 1px solid #0108F8;
+    border-radius: 20px;
+    padding: 22px 22px;
+    width: 40%;
+    height: 180px;
+    min-width: 220px;
+    max-width: 240px;
+}
+
+.bandeco-horarios {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    /* gap: 1rem; */
+    justify-content: space-between;
+    row-gap: 1rem;
 }
 
 #bandeco .horarios h3 {
     font-family: 'Roboto', sans-serif;
     color: #0108F8;
     margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+#bandeco .horarios h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #0108F8;
 }
 
 #bandeco .horarios p {
     font-family: 'Montserrat', sans-serif;
     line-height: 1.2rem;
+    font-size: 1.1rem;
 }
 
-.valor-bandeco {
-    margin-top: 1rem;
-}
-
-#bandeco #penguin{
-    width: 200px;
+#intercampi #penguin{
     position: absolute;
+    width: 200px;
     top: -152px;
-    right: 60px;
+    right: 100px;
 }
 
 #intercampi {
-    height: 50vh;
+    position: relative;
+    height: 40vh;
     display: flex;
     align-items: center;
     font-family: 'Roboto', sans-serif;
+    background-color: #E4E5FF;
+    margin-top: 13rem;
 }
 
 #intercampi > article {
-    text-align: center;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
 }
 
-#intercampi > article > h1 {
-    font-size: 2.5rem;
+#intercampi > article > .text-content > h1 {
+    font-size: 3rem;
     font-weight: 600;
     color: #0108F8;
+    text-align: center;
 }
 
-#intercampi > article > p {
+#intercampi > article > .text-content > p {
     text-align: justify;
-    width: 60%;
+    width: 90%;
+    text-align: justify;
+    font-size: 1.1rem;
+}
+
+#intercampi > article > .text-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+#intercampi > article > .buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 50%;
+    max-width: 600px;
+    padding: 20px;
 }
 
 #more {
@@ -97,11 +143,13 @@
     justify-content: center;
 }
 
+#more .title h2 {
+    margin-bottom: 2rem;
+}
+
 .video-container {
-    margin: auto;
-    margin-top: 3rem;
-    background-color: rgb(197, 197, 197);
-    width: 60%;
-    max-width: 750px;
-    height: 400px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

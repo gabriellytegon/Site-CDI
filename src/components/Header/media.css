@@ -1,3 +1,105 @@
+@media screen and (max-width: 600px) {
+    .homeContentArea h2 {
+        font-size: 1.6rem;
+    } 
+
+     .homeContentArea h3 {
+        font-size: 1.2rem;
+        margin-bottom: .8rem;
+    }
+
+    .homeContentArea h1 {
+        font-size: 2.8rem;
+    }
+
+    .genericContentArea h1 {
+        font-size: 2.5rem;
+    }
+
+    .genericContentArea h2 {
+        text-align: center;
+        font-size: 1.2rem;
+        width: 90%;
+    }
+
+    .homeBackground article {
+        height: 50%;
+    } 
+
+    .genericBackground {
+        display: flex;
+        flex-direction: column;
+        height: 80vh;
+    }
+
+    .genericBackground article {
+        height: 100%;
+    }
+
+    .homeBackground {
+        display: flex;
+        flex-direction: column;
+        height: 80vh;
+        min-width: 100vw;
+    }
+
+    .homeContentArea {
+        justify-content: center;
+    }
+
+    .header-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 5rem;
+    }
+
+    #penguim {
+        display: none;
+    }
+}
+
+
+@media screen and (min-width: 601px) and (max-width: 1000px) {
+    .genericBackground {
+        display: flex;
+        flex-direction: column;
+        height: 80vh;
+    }
+
+    .genericBackground article {
+        height: 100%;
+    }
+
+    .homeBackground {
+        display: flex;
+        flex-direction: column;
+        height: 80vh;
+        min-width: 100vw;
+    }
+
+    .homeBackground article {
+        height: 70%;
+    } 
+
+    .homeContentArea {
+        justify-content: center;
+    }
+
+    .header-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+
+    #penguim {
+        display: none;
+    }
+}
+
 @media screen and (min-width: 1280px) {
     .homeContentArea {
         height: calc((100vw/1.85)*0.6);
@@ -33,23 +135,23 @@
     }
 
     .homeContentArea h1 {
-        font-size: 4.7rem;
+        font-size: 4.4rem;
     }
     
     .homeContentArea h2 {
-        font-size: 2.5rem;
+        font-size: 2.2rem;
     }
     .homeContentArea h3 {
-        font-size: 1.9rem;
-        margin-bottom: .8rem;
+        font-size: 1.6rem;
+        margin-bottom: .5rem;
     }
 
     .genericContentArea h1 {
-        font-size: 4.4rem;
+        font-size: 4.1rem;
     }
 
     .genericContentArea h2 {
-        font-size: 2.1rem;
+        font-size: 1.8rem;
     }
 }
 
@@ -60,23 +162,23 @@
     }
 
     .homeContentArea h1 {
-        font-size: 5rem;
+        font-size: 4.7rem;
     }
     
     .homeContentArea h2 {
-        font-size: 2.8rem;
+        font-size: 2.5rem;
     }
 
     .homeContentArea h3 {
-        font-size: 2.2rem;
-        margin-bottom: .8rem;
+        font-size: 1.9rem;
+        margin-bottom: .5rem;
     }
 
     .genericContentArea h1 {
-        font-size: 5rem;
+        font-size: 4.7rem;
     }
     
     .genericContentArea h2 {
-        font-size: 2.8rem;
+        font-size: 2.5rem;
     }
 }

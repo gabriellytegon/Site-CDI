@@ -3,6 +3,7 @@ import "./style.css";
 import CardEvento from "../../components/CardEvento";
 import pinguim from '../../assets/images/Pinguim.jpeg'
 import Carrocel from "../../components/CardCarousel";
+import Footer from "../../components/Footer";
 
 
 const Eventos = () => {
@@ -89,6 +90,7 @@ const Eventos = () => {
                     </div>
                 </div>
             </div>
+            <Footer></Footer>
         </>
     )
 }

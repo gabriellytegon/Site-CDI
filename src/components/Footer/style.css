@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#footer {
+  background-color: black;
+  /* border: 5px solid white; */
+  color: white;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px; /* Adicionando padding para espaçamento interno */
+}
+
+#logoCdiFooter {
+  margin-left: 30px;
+  width: 100px;
+  height: 100px;
+}
+
+#informations {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; /* Alinhando itens à direita */
+  padding: 23px;
+}
+
+#informations h1 {
+  text-align: left !important;
+  font-size: 20px;
+  padding-bottom: 10px;
+  text-align: right; /* Alinhando o texto à direita */
+  width: 100%;
+}
+
+.midia {
+  display: flex;
+  flex-direction: column; /* Mudança para coluna */
+  gap: 10px; /* Espaçamento entre os itens de mídia */
+}
+
+.midia-item {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Espaçamento entre o ícone e o texto */
+  color: white;
+  text-decoration: none;
+}
+
+.midia-item img {
+  width: 24px; /* Ajuste do tamanho dos ícones */
+  height: 24px;
+}
+
+.midia-item span {
+  font-size: 15px; /* Tamanho da fonte dos textos */
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 450px) {
+  #footer {
+    flex-direction: column;
+    align-items: flex-start; /* Alinhamento inicial dos itens */
+    padding: 10px; /* Ajuste do padding para dispositivos menores */
+  }
+  
+  #informations {
+    align-items: center;
+    padding: 10px; /* Ajuste do padding para dispositivos menores */
+  }
+
+  #informations h1 {
+    padding-left: 0; /* Removendo padding esquerdo */
+    text-align: center; /* Centralizando o título */
+  }
+}

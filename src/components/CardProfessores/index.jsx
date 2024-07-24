@@ -5,16 +5,15 @@ function CardProfessores({nome, pesquisa, lattes, prof, foto, alt}){
     return(
         <div className="cardProfessores">
             <AvatarProfessores src={foto} alt={alt}/>
-            <div className="cardProfessores_txt">
+            <div className="cardProfessores_txt" style={pesquisa ? {padding: '15px 30px'} : {padding: '45px 30px'}}>
                 <h1>{nome}</h1>
-                <p>Área de pesquisa TCC/IC: {pesquisa}</p>
-                <a href={lattes} target="_blank" rel="noopener noreferrer">Link do currículo lattes {prof}</a>
+                {pesquisa && (
+                    <p>Área de pesquisa TCC/IC: {pesquisa}</p>
+                )}
+                <a href={lattes} target="_blank" rel="noopener noreferrer">Link do currículo lattes</a>
             </div>
         </div>
     )
 }
 
 export default CardProfessores
-
-// 
-{/* <CardProfessores nome="Marcos" pesquisa="AJSJAJKASJK" lattes="lalala" prof="sddadw" foto="https://static.escolakids.uol.com.br/2019/07/lontra.jpg" alt="adwwwd"></CardProfessores> */}

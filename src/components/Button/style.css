@@ -8,6 +8,7 @@
   justify-content: center;
   align-items: center;
   padding: 15px 40px;
+  transition: .4s;
 }
 
 .button1 {
@@ -16,8 +17,20 @@
   color: #0108F8;
 }
 
+.button1:hover {
+  background-color: #0108F8;
+  border: 1px solid #0108F8;
+  color: #ffffff;
+}
+
 .button2 {
   background-color: #0108F8;
   color: #fff;
-  border: none;
+  border: 1px solid #0108F8;
+}
+
+.button2:hover {
+  background-color: #E4E5FF;
+  color: #0108F8;
+  border: 1px solid #0108F8;
 }
