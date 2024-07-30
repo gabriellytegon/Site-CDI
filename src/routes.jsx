@@ -3,6 +3,7 @@ import Home from "./pages/home";
 import Eventos from "./pages/Eventos";
 import VidaNoCampus from "./pages/vidanocampus";
 import Professores from "./pages/professores";
+import GuiaParaIngressantes from "./pages/guiaparaingressantes";
 
 export const router = createBrowserRouter([
   {
@@ -20,5 +21,9 @@ export const router = createBrowserRouter([
   {
     path: "/professores",
     element: <Professores/>,
+  },
+  {
+    path: "/guiaparaingressantes",
+    element: <GuiaParaIngressantes/>,
   },
 ]);

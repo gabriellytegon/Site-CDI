@@ -68,7 +68,7 @@ const Menu = ({forHome='yes'}) => {
                                 <Link to={'/professores'}>Professores</Link>
                             </li>
                             <li>
-                            <a href="#">Guia para ingressantes</a>
+                                <Link to={'/guiaparaingressantes'}>Guia para ingressantes</Link>
                             </li>
                             <li>
                                 <Link to={'/vidanocampus'}>Vida no campus</Link>
