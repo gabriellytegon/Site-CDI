@@ -1,0 +1,60 @@
+#bigcard {
+    padding: 40px 30px;
+    background: linear-gradient(#0058B0 70%,#CBCDFF);
+    width: 420px;
+    height: 420px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.315); 
+}
+
+.button-area {
+    width: 85%;
+    margin: 0 auto;
+}
+
+#bigcard .cardtitle h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    text-align: center;
+    
+}
+
+#bigcard .text-area {
+    font-size: 0.9rem;
+    margin-top: 2.3rem;
+    margin-bottom: 1.3rem;
+}
+
+.text-area p {
+    font-weight: 200;
+    text-align: center;
+    font-size: 0.85rem;
+}
+
+.breakrow {
+    width: 70%;
+}
+
+.cardtitle {
+    display: flex;
+    justify-content: center;
+}
+  
+  @media (max-width: 768px) {
+    #bigcard .cardtitle h1 {
+      font-size: 3rem;
+    }
+  
+    #bigcard .text-area {
+      font-size: 0.8rem;
+    }
+
+    #bigcard {
+        width: 360px;
+    }
+
+    .button-area {
+        margin-top: 2.5rem;
+    }
+  }
