@@ -1,5 +1,5 @@
 .img-wrapper {
-    max-width: 100%;
+    max-width: 100vw;
     height: 20vw;
     display: flex;
     justify-content: center;

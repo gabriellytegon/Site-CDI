@@ -10,6 +10,44 @@ import checkIcon from '../../assets/icons/checkIcon.svg'
 import './style.css'
 
 const Home = () => {
+    const imagensCarrossel = [
+        'src/assets/images/carrossel/imagem_2024-06-19_191234553.png',
+        'src/assets/images/carrossel/IMG-20230615-WA0152.jpg',
+        'src/assets/images/carrossel/IMG-20230615-WA0155.jpg',
+        'src/assets/images/carrossel/IMG-20230615-WA0156.jpg',
+        'src/assets/images/carrossel/IMG-20230615-WA0161.jpg',
+        'src/assets/images/carrossel/IMG-20230629-WA0004.jpg',
+        'src/assets/images/carrossel/IMG-20230816-WA0050.jpg',
+        'src/assets/images/carrossel/IMG-20230816-WA0053.jpg',
+        'src/assets/images/carrossel/IMG-20230816-WA0057.jpg',
+        'src/assets/images/carrossel/IMG-20230927-WA0123.jpg',
+        'src/assets/images/carrossel/IMG-20231005-WA00181.jpg',
+        'src/assets/images/carrossel/IMG-20231007-WA0002.jpg',
+        'src/assets/images/carrossel/IMG-20231110-WA0021.jpg',
+        'src/assets/images/carrossel/IMG-20231110-WA0027.jpg',
+        'src/assets/images/carrossel/IMG-20231110-WA0028.jpg',
+        'src/assets/images/carrossel/IMG-20231110-WA0031.jpg',
+        'src/assets/images/carrossel/IMG-20231110-WA0032.jpg',
+        'src/assets/images/carrossel/IMG-20231110-WA0035.jpg',
+        'src/assets/images/carrossel/IMG-20231110-WA0038.jpg',
+        'src/assets/images/carrossel/IMG-20231110-WA0044.jpg',
+        'src/assets/images/carrossel/IMG-20231110-WA0047.jpg',
+        'src/assets/images/carrossel/IMG-20231110-WA0048.jpg',
+        'src/assets/images/carrossel/IMG-20231130-WA0071.jpg',
+        'src/assets/images/carrossel/IMG-20231130-WA0073.jpg',
+        'src/assets/images/carrossel/IMG-20231130-WA0074.jpg',
+        'src/assets/images/carrossel/IMG-20231130-WA0077(1).jpg',
+        'src/assets/images/carrossel/IMG-20231130-WA00721.jpg',
+        'src/assets/images/carrossel/IMG-20231130-WA00781.jpg',
+        'src/assets/images/carrossel/IMG-20240425-WA0075.jpg',
+        'src/assets/images/carrossel/IMG-20240426-WA0073.jpg',
+        'src/assets/images/carrossel/IMG-20240523-WA0037.jpg',
+        'src/assets/images/carrossel/IMG-20240615-WA0005.jpg',
+        'src/assets/images/carrossel/IMG-20240618-WA0065.jpg',
+        'src/assets/images/carrossel/IMG-20240619-WA0051.jpg',
+        'src/assets/images/carrossel/Screenshot_2024-06-19-19-20-47-544_com.instagram.android-edit.jpg',
+        'src/assets/images/carrossel/Screenshot_2024-06-19-19-21-18-291_com.instagram.android-edit.jpg'];
+
     return (
         <>
             <Header></Header>
@@ -41,7 +79,7 @@ const Home = () => {
                     </div>
                 </div>
                 <div id="carousel">
-                    <CardCarousel photos={["https://picsum.photos/1600/1200?random=1", "https://picsum.photos/1600/1200?random=2", "https://picsum.photos/1600/1200?random=3", "https://picsum.photos/1600/1200?random=4", "https://picsum.photos/1600/1200?random=5", "https://picsum.photos/1600/1200?random=6", "https://picsum.photos/1600/1200?random=7"]}></CardCarousel>
+                    <CardCarousel photos={imagensCarrossel}></CardCarousel>
                 </div>
             </div>
 
