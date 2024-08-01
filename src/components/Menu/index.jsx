@@ -74,7 +74,7 @@ const Menu = ({forHome='yes'}) => {
                                 <Link to={'/vidanocampus'}>Vida no campus</Link>
                             </li>
                             <li>
-                            <a href="#">Contato</a>
+                            <a href="#footer">Contato</a>
                             </li>
                         </ul>
                     </nav>
