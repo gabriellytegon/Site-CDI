@@ -134,15 +134,15 @@ const Home = () => {
 
                 <div className="area">
                     <h2>Presidência</h2>
-                    <div className="membro"><AvatarHome src="https://placehold.co/400" alt="..." nome="Nome e Sobrenome"></AvatarHome></div>
-                    <div className="membro"><AvatarHome src="https://placehold.co/400" alt="..." nome="Nome e Sobrenome"></AvatarHome></div>
+                    <div className="membro"><AvatarHome src="src/assets/images/membros/Cópia de Rafael Henrique- Eventos e Relações Externas.jpg" alt="Rafael Henrique" nome="Rafael Henrique"></AvatarHome></div>
+                    <div className="membro"><AvatarHome src="src/assets/images/membros/Cópia de Matheus Andrade - Eventos.jpg" alt="Matheus Andrade" nome="Matheus Andrade"></AvatarHome></div>
                     <div className="membro"><AvatarHome src="https://placehold.co/400" alt="..." nome="Nome e Sobrenome"></AvatarHome></div>
                     <div className="membro"><AvatarHome src="https://placehold.co/400" alt="..." nome="Nome e Sobrenome"></AvatarHome></div>
                 </div>
 
                 <div className="area">
                     <h2>A.A.E.</h2>
-                    <div className="membro"><AvatarHome src="https://placehold.co/400" alt="..." nome="Nome e Sobrenome"></AvatarHome></div>
+                    <div className="membro"><AvatarHome src="src/assets/images/membros/Cópia de Ana Carolina - Assuntos acadêmicos e estudantis.jpeg" alt="Ana Carolina" nome="Ana Carolina"></AvatarHome></div>
                     <div className="membro"><AvatarHome src="https://placehold.co/400" alt="..." nome="Nome e Sobrenome"></AvatarHome></div>
                     <div className="membro"><AvatarHome src="https://placehold.co/400" alt="..." nome="Nome e Sobrenome"></AvatarHome></div>
                     <div className="membro"><AvatarHome src="https://placehold.co/400" alt="..." nome="Nome e Sobrenome"></AvatarHome></div>
@@ -151,7 +151,17 @@ const Home = () => {
                 <div className="area">
                     <h2>Administrativo</h2>
 
+                    <div className="membro"><AvatarHome src="src/assets/images/membros/Cópia de Brener Camargo - Administrativo.jpeg" alt="Brener Camargo" nome="Brener Camargo"></AvatarHome></div>
+                    <div className="membro"><AvatarHome src="src/assets/images/membros/Cópia de Gabriel Gato - Administrativo_Logística.jpg" alt="Gabriel Gato" nome="Gabriel Gato"></AvatarHome></div>
                     <div className="membro"><AvatarHome src="https://placehold.co/400" alt="..." nome="Nome e Sobrenome"></AvatarHome></div>
+                    <div className="membro"><AvatarHome src="https://placehold.co/400" alt="..." nome="Nome e Sobrenome"></AvatarHome></div>
+
+                </div>
+
+                <div className="area">
+                    <h2>Eventos</h2>
+
+                    <div className="membro"><AvatarHome src="src/assets/images/membros/Cópia de Ana Clara - Eventos.jpeg" alt="Ana Clara" nome="Ana Clara"></AvatarHome></div>
                     <div className="membro"><AvatarHome src="https://placehold.co/400" alt="..." nome="Nome e Sobrenome"></AvatarHome></div>
                     <div className="membro"><AvatarHome src="https://placehold.co/400" alt="..." nome="Nome e Sobrenome"></AvatarHome></div>
                     <div className="membro"><AvatarHome src="https://placehold.co/400" alt="..." nome="Nome e Sobrenome"></AvatarHome></div>
@@ -160,15 +170,15 @@ const Home = () => {
 
                 <div className="area">
                     <h2>Financeiro</h2>
-                    <div className="membro"><AvatarHome src="https://placehold.co/400" alt="..." nome="Nome e Sobrenome"></AvatarHome></div>
-                    <div className="membro"><AvatarHome src="https://placehold.co/400" alt="..." nome="Nome e Sobrenome"></AvatarHome></div>
-                    <div className="membro"><AvatarHome src="https://placehold.co/400" alt="..." nome="Nome e Sobrenome"></AvatarHome></div>
+                    <div className="membro"><AvatarHome src="src/assets/images/membros/Cópia de Carolina Quiterio - Gestão de Pessoas.HEIC" alt="Carolina Quiterio" nome="Carolina Quiterio"></AvatarHome></div>
+                    <div className="membro"><AvatarHome src="src/assets/images/membros/Cópia de Tales Dias - Financeiro.jpeg" alt="Tales Dias" nome="Tales Dias"></AvatarHome></div>
+                    <div className="membro"><AvatarHome src="src/assets/images/membros/Cópia de Vitor Alves - Financeiro.heif" alt="Vitor Alves" nome="Vitor Alves"></AvatarHome></div>
                     <div className="membro"><AvatarHome src="https://placehold.co/400" alt="..." nome="Nome e Sobrenome"></AvatarHome></div>
                 </div>
 
                 <div className="area">
                     <h2>G.P.</h2>
-                    <div className="membro"><AvatarHome src="https://placehold.co/400" alt="..." nome="Nome e Sobrenome"></AvatarHome></div>
+                    <div className="membro"><AvatarHome src="src/assets/images/membros/Cópia de Emily - Projetos e Gestão de Pessoas.jpg" alt="Emily" nome="Emily"></AvatarHome></div>
                     <div className="membro"><AvatarHome src="https://placehold.co/400" alt="..." nome="Nome e Sobrenome"></AvatarHome></div>
                     <div className="membro"><AvatarHome src="https://placehold.co/400" alt="..." nome="Nome e Sobrenome"></AvatarHome></div>
                     <div className="membro"><AvatarHome src="https://placehold.co/400" alt="..." nome="Nome e Sobrenome"></AvatarHome></div>
@@ -176,16 +186,16 @@ const Home = () => {
 
                 <div className="area">
                     <h2>Marketing</h2>
-                    <div className="membro"><AvatarHome src="https://placehold.co/400" alt="..." nome="Nome e Sobrenome"></AvatarHome></div>
-                    <div className="membro"><AvatarHome src="https://placehold.co/400" alt="..." nome="Nome e Sobrenome"></AvatarHome></div>
-                    <div className="membro"><AvatarHome src="https://placehold.co/400" alt="..." nome="Nome e Sobrenome"></AvatarHome></div>
+                    <div className="membro"><AvatarHome src="src/assets/images/membros/Cópia de Julia Fernandes - marketing e comunicação.jpeg" alt="Julia Fernandes" nome="Julia Fernandes"></AvatarHome></div>
+                    <div className="membro"><AvatarHome src="src/assets/images/membros/Cópia de Ori Minohara - Marketing.png" alt="Ori Minohara" nome="Ori Minohara"></AvatarHome></div>
+                    <div className="membro"><AvatarHome src="src/assets/images/membros/Cópia de Ricardo Kenzo Koga - Marketing.JPG" alt="Ricardo Kenzo Koga" nome="Ricardo Kenzo Koga"></AvatarHome></div>
                     <div className="membro"><AvatarHome src="https://placehold.co/400" alt="..." nome="Nome e Sobrenome"></AvatarHome></div>
                 </div>
 
                 <div className="area">
                     <h2>Projetos</h2>
-                    <div className="membro"><AvatarHome src="https://placehold.co/400" alt="..." nome="Nome e Sobrenome"></AvatarHome></div>
-                    <div className="membro"><AvatarHome src="https://placehold.co/400" alt="..." nome="Nome e Sobrenome"></AvatarHome></div>
+                    <div className="membro"><AvatarHome src="src/assets/images/membros/Cópia de Higor Gabriel - Administrativo_.jpg" alt="Higor Gabriel" nome="Higor Gabriel"></AvatarHome></div>
+                    <div className="membro"><AvatarHome src="src/assets/images/membros/Cópia de Renan Martins - Projetos.jpeg" alt="Renan Martins" nome="Renan Martins"></AvatarHome></div>
                     <div className="membro"><AvatarHome src="https://placehold.co/400" alt="..." nome="Nome e Sobrenome"></AvatarHome></div>
                     <div className="membro"><AvatarHome src="https://placehold.co/400" alt="..." nome="Nome e Sobrenome"></AvatarHome></div>
                 </div>
