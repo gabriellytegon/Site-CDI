@@ -14,8 +14,8 @@ function CardCarousel({ photos }) {
     const handleNextClick = () => {
         const cardWidth = document.querySelector('.carousel-item').offsetWidth;
         const carouselWidth = document.querySelector('.carousel-inner').scrollWidth - document.querySelector('.carousel-inner').offsetWidth;
-        const nextPosition = scrollPosition + cardWidth;
-        if (nextPosition < carouselWidth) {
+        if (scrollPosition < carouselWidth) {
+            const nextPosition = scrollPosition + cardWidth;
             setScrollPosition(nextPosition);
             document.querySelector('.carousel-inner').scrollTo({
                 left: nextPosition,
