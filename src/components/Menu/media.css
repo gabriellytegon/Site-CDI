@@ -76,11 +76,15 @@
     .navigationGeneric nav ul, .navigationGeneric nav {
         margin-left: 5rem;
     }
+
+    .navigationGeneric, .navigationHome {
+        width: 100%;
+    }
 }
 
 @media screen and (min-width: 1480px) {
     .navigationHome, .navigationGeneric {
-        width: 75%;
+        width: 100%;
     }
 
     .navigationHome nav ul, .navigationGeneric nav ul {
