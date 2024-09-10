@@ -83,6 +83,8 @@ p {
 
 #carousel {
     margin-inline: 5%;
+    width: 80vw;
+    margin-top: 100px;
 }
 
 /* Cursos */
