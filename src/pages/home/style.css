@@ -156,34 +156,42 @@ p {
 /* Equipe */
 
 #equipe {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    padding-bottom: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    margin: 10rem 0;
 }
 
-#equipe h1 {
-    margin-top: 15%;
-    grid-column: 1 / span 2;
-}
+.areas {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 6rem !important;
+    column-gap: 4rem;
+    gap: 4rem;
+    width: 70%;
+    justify-content: center;
 
-.area h2 {
-    padding-top: 10%;
-    padding-bottom: 3%;
+    margin-top: 5rem;
 }
 
 .area {
-    margin: 1%;
-    padding: 1%;
-    padding-top: 10%;
-    display: grid;
-    grid-gap: 1%;
-    grid-template-columns: 50% 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 400px;
 }
 
-.area h2 {
-    grid-column: 1 / span 2;
+.area-title{
+    margin-bottom: 3rem;
 }
 
-.membro {
-    justify-self: center;
+.area-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    gap: 3rem;
 }
