@@ -41,17 +41,6 @@
     margin-bottom: 50px;
 }
 
-
-.card-evento {
-    width: 820px;
-    height: 220px;
-    background-color: #ffffff;
-    border-radius: 7px;
-    border: 1px solid #8e8ffe;
-    display: flex;
-    padding: 0 40px 0px 40px;
-}
-
 @media (max-width: 1027px) {
     .card-evento {
         width: 500px;
