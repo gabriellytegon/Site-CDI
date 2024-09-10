@@ -29,35 +29,56 @@ p {
 /* CDI */
 
 #cdi {
-    display: grid;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 #cdi h1 {
     margin-bottom: 5%;
 }
 
-#cdi p {
+#cdi > p {
     margin-inline: 10%;
+    width: 80%;
+    max-width: 1000px;
 }
 
 #conceitos {
-    display: grid;
-    grid-template-columns: 30% 30% 30%;
-    justify-content: space-between;
-    margin-inline: 11%;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    max-width: 1000px;
+    margin-top: 100px;
 }
 
 .conceito {
     background-color: #E4E5FF;
     border: 1px solid #0108F8;
-    border-radius: 10px;
-    padding: 2%;
+    border-radius: 20px;
+    width: 300px;
+    height: 250px;
+
+    padding: 20px 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.conceito h2 {
-    margin-top: 5%;
+.conceito > p {
+    width: 80%;
+    height: 200px;
+    margin-top: 15px;
+}
+
+#lista-valores {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
 #carousel {

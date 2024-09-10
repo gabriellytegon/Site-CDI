@@ -51,22 +51,24 @@ const Home = () => {
                 </p>
                 <div id="conceitos">
                     <div className="conceito">
-                        <h2>Missão</h2> <br />
+                        <h2>Missão</h2>
                         <p>
                             Apoiamos a comunidade de T.I. da FT e desenvolvemos os membros da comissão para que suas jornadas acadêmicas sejam as mais enriquecedoras.
                         </p>
                     </div>
                     <div className="conceito">
-                        <h2>Visão</h2> <br />
+                        <h2>Visão</h2>
                         <p>
                             Até 2026, pretendemos aumentar em 50% nosso impacto na comunidade de T.I.
                         </p>
                     </div>
                     <div className="conceito">
-                        <h2>Valores</h2> <br />
-                        <p><img src={checkIcon} alt="icone de check" /> Comprometimento</p>
-                        <p><img src={checkIcon} alt="icone de check" /> Empatia</p>
-                        <p><img src={checkIcon} alt="icone de check" /> Transparência</p>
+                        <h2>Valores</h2>
+                        <p id="lista-valores">
+                            <span><img src={checkIcon} alt="icone de check" /> Comprometimento</span>
+                            <span><img src={checkIcon} alt="icone de check" /> Empatia</span>
+                            <span><img src={checkIcon} alt="icone de check" /> Transparência</span>
+                        </p>
                     </div>
                 </div>
                 <div id="carousel">
