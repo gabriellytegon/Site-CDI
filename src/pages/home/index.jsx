@@ -8,6 +8,7 @@ import imagemBSI from '../../assets/images/imagemBSI.png'
 import imagemTADS from '../../assets/images/imagemTADS.png'
 import checkIcon from '../../assets/icons/checkIcon.svg'
 import './style.css'
+import './media.css'
 
 const Home = () => {
     const imagensCarrossel = [
@@ -80,14 +81,18 @@ const Home = () => {
                 <h1>Cursos de tecnologia</h1>
 
                 <div id="bsi">
-                    <img src={imagemBSI} alt="imagem BSI" />
-                    <div className="curso_texto">
-                        <h2>Bacharelado em Sistemas de Informação</h2>
-                        <p>O curso de S.I possui um papel fundamental em um mundo que viabiliza a rapidez da informação pois a compreensão dos sistemas informacionais é de extrema importância. O profissional qualificado pela área desenvolve duas principais habilidades: projetar e implantar os sistemas que integram o mundo digital.</p>
-                        <p className="item"><img src={checkIcon} alt="icone de check" /> Período: Integral</p>
-                        <p className="item"><img src={checkIcon} alt="icone de check" /> Carga horária estimada: 3.060 horas</p>
-                        <p className="item"><img src={checkIcon} alt="icone de check" /> Integralização: 08 semestres</p>
-                        <p className="item"><img src={checkIcon} alt="icone de check" /> Vagas: 45</p>
+                    <img src={imagemBSI} alt="imagem BSI" className="imagem-curso" />
+                    <div className="conteudo-curso">
+                        <div className="curso_texto">
+                            <h2>Bacharelado em Sistemas de Informação</h2>
+                            <p>O curso de S.I possui um papel fundamental em um mundo que viabiliza a rapidez da informação pois a compreensão dos sistemas informacionais é de extrema importância. O profissional qualificado pela área desenvolve duas principais habilidades: projetar e implantar os sistemas que integram o mundo digital.</p>
+                            <div className="detalhes-curso">
+                                <p className="item"><img src={checkIcon} alt="icone de check" /> Período: Integral</p>
+                                <p className="item"><img src={checkIcon} alt="icone de check" /> Carga horária estimada: 3.060 horas</p>
+                                <p className="item"><img src={checkIcon} alt="icone de check" /> Integralização: 08 semestres</p>
+                                <p className="item"><img src={checkIcon} alt="icone de check" /> Vagas: 45</p>
+                            </div>
+                        </div>
                         <div className="botao">
                             <Button
                                 buttonText={"Acesse o currículo pleno"}
@@ -101,13 +106,17 @@ const Home = () => {
                 </div>
 
                 <div id="tads">
-                    <div className="curso_texto">
-                        <h2>Tecnologia em Análise e Desenvolvimento de Sistemas</h2>
-                        <p>O curso de T.A.D.S, têm como intuito formar profissionais com uma base sólida, de modo ao qual seja prático aplicar os conhecimentos teóricos na intensa vivência prática que o mundo da tecnologia proporciona.</p>
-                        <p className="item"><img src={checkIcon} alt="icone de check" /> Período: Noturno</p>
-                        <p className="item"><img src={checkIcon} alt="icone de check" /> Carga horária estimada: 2.430 horas</p>
-                        <p className="item"><img src={checkIcon} alt="icone de check" /> Integralização: 07 semestres</p>
-                        <p className="item"><img src={checkIcon} alt="icone de check" /> Vagas: 45</p>
+                    <div className="conteudo-curso">
+                        <div className="curso_texto">
+                            <h2>Tecnologia em Análise e Desenvolvimento de Sistemas</h2>
+                            <p>O curso de T.A.D.S, têm como intuito formar profissionais com uma base sólida, de modo ao qual seja prático aplicar os conhecimentos teóricos na intensa vivência prática que o mundo da tecnologia proporciona.</p>
+                            <div className="detalhes-curso">
+                                <p className="item"><img src={checkIcon} alt="icone de check" /> Período: Noturno</p>
+                                <p className="item"><img src={checkIcon} alt="icone de check" /> Carga horária estimada: 2.430 horas</p>
+                                <p className="item"><img src={checkIcon} alt="icone de check" /> Integralização: 07 semestres</p>
+                                <p className="item"><img src={checkIcon} alt="icone de check" /> Vagas: 45</p>
+                            </div>
+                        </div>
                         <div className="botao">
                             <Button
                                 buttonText={"Acesse o currículo pleno"}
@@ -118,7 +127,7 @@ const Home = () => {
                             />
                         </div>
                     </div>
-                    <img src={imagemTADS} alt="imagem TADS" />
+                    <img src={imagemTADS} alt="imagem TADS" className="imagem-curso"/>
                 </div>
             </div>
 

@@ -16,7 +16,12 @@ p {
     font-weight: 600;
 }
 
-#cursos h2,
+#cursos h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #0108F8;
+    font-weight: 600;
+}
+
 #conceitos h2,
 #equipe h2 {
     text-align: center;
@@ -61,7 +66,7 @@ p {
     width: 300px;
     height: 250px;
 
-    padding: 20px 10px;
+    padding: 25px 10px;
 
     display: flex;
     flex-direction: column;
@@ -90,11 +95,13 @@ p {
 /* Cursos */
 
 #cursos {
-    display: grid;
-}
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
-#cursos h1 {
-    margin-top: 10%;
+    gap: 5rem;
+    margin-top: 7rem;
 }
 
 #bsi,
@@ -102,30 +109,48 @@ p {
     background-color: #E4E5FF;
     border: 1px solid #0108F8;
     border-radius: 40px;
-    padding: 5%;
-    display: grid;
-    margin-inline: 4%;
-    margin-top: 5%;
+    width: 80vw;
+    padding: 60px;
+    box-sizing: border-box;
+    display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-#bsi {
-    grid-template-columns: 35% 61%;
+.conteudo-curso {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
 }
 
-#tads {
-    grid-template-columns: 61% 35%;
+.curso_texto {
+    width: 80%;
 }
 
-#bsi p,
-#tads p {
+#bsi > p,
+#tads > p {
     margin-top: 5%;
     margin-bottom: 5%;
 }
 
+#tads .curso_texto > h2 {
+    min-width: 600px;
+}
+
+.detalhes-curso {
+    margin-top: 2rem;
+}
+
+.imagem-curso {
+    width: 35%;
+}
+
 .botao {
-    padding-inline: 25%;
+    width: 80%;
+    max-width: 400px;
+    margin-top: 2rem;
 }
 
 /* Equipe */
