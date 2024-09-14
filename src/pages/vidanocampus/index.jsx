@@ -61,10 +61,10 @@ const VidaNoCampus = () => {
 
                     <div className="buttons">
                         <Button
-                            buttonText={"Clique para consultar horários"}
+                            buttonText={"Clique para mais informações"}
                             width={400}
                             fontSize={14}
-                            link={'#'}
+                            link={'https://www3.ft.unicamp.br/pt-br/acessorapido/intercamp'}
                             option={1}
                         />
                         <Button
