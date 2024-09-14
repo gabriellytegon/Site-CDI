@@ -46,7 +46,7 @@ const GuiaParaIngressantes = () => {
                 <Bigcard button_text={"Clique para entrar no grupo"} cardtitle={"Estágio e Vagas"}
                     text={"Para ficar por dentro das principais vagas na área de tecnologia entre no nosso grupo do WhatsApp"}
                     breakrow
-                    link={"https://chat.whatsapp.com/CiIVlFZVrheG3mGxRMxseU"}
+                    link={"https://chat.whatsapp.com/IeXDZAw7b2o303ed8oY0xw"}
                     
                     
                 />
