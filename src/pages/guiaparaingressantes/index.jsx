@@ -52,7 +52,7 @@ const GuiaParaIngressantes = () => {
                 />
                 <Bigcard button_text={"Clique para saber mais"} cardtitle={"Grupos de matérias"}
                     text={"Pensando em facilitar a sua vida, caro aluno, a CDI criou um grupo no WhatsApp para cada matéria"}
-                    
+                    link={"https://chat.whatsapp.com/JdQ4GFmHM5LKHYA8sz1i23"}
                 />
 
 
@@ -77,7 +77,13 @@ const GuiaParaIngressantes = () => {
                         </div>
 
                         <div className="intercambio-content">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quaerat iusto dolorum saepe eveniet sit asperiores suscipit nihil error laborum, repellendus consequatur amet corrupti similique. Ipsa voluptatem hic cumque ducimus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto quaerat optio quos nisi, nihil qui dolores adipisci aliquid, labore error dolore maiores non alias deserunt veritatis cupiditate dolor accusamus. Voluptatem. lo</p>
+                            <p>Trata-se de uma parceria firmada por convênio/acordo acadêmico internacional entre a UNICAMP e uma Instituição de ensino estrangeira que tem como objetivo a obtenção de diploma de graduação reconhecido nas duas instituições convenentes.
+
+O acordo prevê a realização de parte do curso no Brasil e parte no exterior, sendo que as condições para participação são definidas entre as instituições.     
+
+O aluno formado por um programa de dupla diplomação fica habilitado a exercer sua profissão em ambos os países.  
+
+Para se inscrever no programa, o aluno deve acompanhar os editais divulgados no site da Deri (Diretoria Executiva de Relações Internacionais) <a style={{color: '#0108f8', fontWeight: 600}} href="http://www.internationaloffice.unicamp.br/">http://www.internationaloffice.unicamp.br/</a></p>
                         </div>
 
                     </div>
