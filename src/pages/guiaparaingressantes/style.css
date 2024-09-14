@@ -67,6 +67,7 @@ body {
 .intercambio,
 .iniciacao {
   width: 60%;
+  min-width: 400px;
   text-align: center;
 }
 
@@ -74,7 +75,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 80%;
+  width: 65%;
   gap: 4rem;
   /* background-color: #0108f8; */
 }
@@ -87,12 +88,16 @@ body {
 #aviao {
   position: relative;
   z-index: -10;
-  margin-right: 22rem;
+  min-width: 320px;
+  width: 80% !important;
   /* left: 800px; */
 }
 
 .intercambioiniciacao aside {
-  /* position: relative; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35%;
 }
 
 .title-intercambio h2 {
@@ -146,7 +151,7 @@ body {
     align-items: center;
     justify-content: center;
     width: 70%;
-    margin: 0;
+    margin: 2rem 0;
   }
 
   .intercambioiniciacao article{
