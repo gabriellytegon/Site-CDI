@@ -30,7 +30,7 @@
     .genericBackground {
         display: flex;
         flex-direction: column;
-        height: 80vh;
+        height: 70vh;
     }
 
     .genericBackground article {
@@ -92,7 +92,7 @@
     .genericBackground {
         display: flex;
         flex-direction: column;
-        height: 80vh;
+        height: 60vh;
     }
 
     .genericBackground article {
@@ -128,7 +128,7 @@
     .genericBackground {
         display: flex;
         flex-direction: column;
-        height: 80vh;
+        height: 60vh;
     }
 
     .genericBackground article {
