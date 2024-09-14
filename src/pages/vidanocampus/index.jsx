@@ -17,7 +17,7 @@ const VidaNoCampus = () => {
             <div id="bandeco">
                 <div className="content">
                     <div className="horarios">
-                        <h2 className="fw-bold">Você não vai perder o bandeco né?!</h2>
+                        <h2 className="fw-bold titles-h2">Você não vai perder o bandeco né?!</h2>
                         <div className="bandeco-horarios">
                             <div className="bandeco-box cafe-da-manha">
                                 <h3 className="fw-bold text-center">Café da manhã</h3>
@@ -80,7 +80,7 @@ const VidaNoCampus = () => {
 
             <div id="more">
                 <div className="title">
-                    <h2 className="fw-bold text-center h-25">Conheça mais sobre o campus da FT:</h2>
+                    <h2 className="fw-bold text-center h-25 titles-h2">Conheça mais sobre o campus da FT:</h2>
                 </div>
                 <div className="video-container">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/8pzCYwxIW8k?si=RiomZc4J1cgAPnmz" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen;" referrerPolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

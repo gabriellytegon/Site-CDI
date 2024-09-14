@@ -9,7 +9,7 @@ const Professores = () => {
             <Header title="Professores" content="Os melhores professores de tecnologia do Brasil estão aqui na FT-Unicamp"></Header>
 
             <div className="textoProfessores">
-                <h2>Nossos professores de tecnologia</h2>
+                <h2 className="titles-h2">Nossos professores de tecnologia</h2>
                 <p>Aqui você vai conhecer os professores da Faculdade de Tecnologia da Unicamp. Temos os melhores professores do Brasil, com as melhores qualificações e uma excelente base de conhecimento, podendo contar com seus diplomas internacionais como mestrados, doutorados e pós-graduações.</p>
             </div>
 

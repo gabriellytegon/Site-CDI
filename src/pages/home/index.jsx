@@ -78,7 +78,7 @@ const Home = () => {
             </div>
 
             <div id="cursos">
-                <h1>Cursos de tecnologia</h1>
+                <h1 className="titles-h2">Cursos de tecnologia</h1>
 
                 <div id="bsi">
                     <img src={imagemBSI} alt="imagem BSI" className="imagem-curso" />
@@ -132,7 +132,7 @@ const Home = () => {
             </div>
 
             <div id="equipe">
-                <h1>Conheça nossos membros!</h1>
+                <h1 className="titles-h2">Conheça nossos membros!</h1>
 
                 <div className="areas">
                     <div className="area">

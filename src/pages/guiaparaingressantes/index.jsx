@@ -22,7 +22,7 @@ const GuiaParaIngressantes = () => {
 
             <div className="eletivas">
                 <div id="title-eletiva">
-                    <h2>Eletivas e horas complementares</h2>
+                    <h2 className='titles-h2'>Eletivas e horas complementares</h2>
                 </div>
                 <div className="content">
                     <p>Em todos os nossos cursos, as horas complementares desempenham um papel fundamental no enriquecimento da sua formação acadêmica. Estas horas podem ser obtidas por meio de diversas atividades, como participação em palestras inspiradoras, visitas técnicas empolgantes, envolvimento em projetos de monitoria e muito mais.Ao clicar no botão abaixo você será redirecionado a página de catálogos de cursos. Basta acessar o seu que você conseguirá encontrar informações detalhadas sobre a quantidade de horas complementares necessárias para a conclusão do seu curso e orientações sobre como conquistá-las.</p>
@@ -72,7 +72,7 @@ const GuiaParaIngressantes = () => {
                 <article>  {/* tag genérica */}
                     <div className="intercambio">
                         <div className="title-intercambio">
-                            <h2>Intercâmbio</h2>
+                            <h2 className='titles-h2'>Intercâmbio</h2>
 
                         </div>
 
@@ -90,7 +90,7 @@ Para se inscrever no programa, o aluno deve acompanhar os editais divulgados no 
 
                     <div className="iniciacao">
                         <div className="title-iniciacao">
-                            <h2>Iniciação científica e tecnológica</h2>
+                            <h2 className='titles-h2'>Iniciação científica e tecnológica</h2>
                         </div>
                         <div className="iniciacao-content">
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur nobis eum minima aliquam totam saepe, veniam id repudiandae quas placeat ad dolores. Ipsam, expedita? Libero a suscipit tenetur exercitationem in. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere numquam doloremque similique aliquid expedita ducimus voluptatem, nisi consequuntur corrupti modi tempora nesciunt cumque beatae. In consequuntur iusto quisquam reiciendis temporibus.</p>
