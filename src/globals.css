@@ -1,0 +1,39 @@
+.titles-h2 {
+    font-size: 2rem !important;
+}
+
+@media screen and (max-width: 500px) {
+}
+
+@media screen and (min-width: 501px) and (max-width: 600px) {
+}
+
+@media screen and (min-width: 601px) and (max-width: 1000px) {
+    .titles-h2 {
+        font-size: 2.2rem !important;
+    }
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1280px) {
+    .titles-h2 {
+        font-size: 2.2rem !important;
+    }
+}
+
+@media screen and (min-width: 1281px) and (max-width: 1366px) {
+    .titles-h2 {
+        font-size: 2.4rem !important;
+    }
+}
+
+@media screen and (min-width: 1367px) and (max-width: 1600px) {
+    .titles-h2 {
+        font-size: 2.4rem !important;
+    }
+}
+
+@media screen and (min-width: 1601px){
+    .titles-h2 {
+        font-size: 2.5rem !important;
+    }
+}
