@@ -13,7 +13,7 @@ const GuiaParaIngressantes = () => {
             />
             <div className="mapadocampus">
                 <div id="title-map">
-                    <h2>Mapa do campus</h2>
+                    <h2 className='titles-h2'>Mapa do campus</h2>
                 </div>
                 <div className="content">
                     <img src="src\assets\images\mapa-campus.png" alt="mapa do campus" id='mapa' />

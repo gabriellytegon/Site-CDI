@@ -6,8 +6,8 @@
 }
 
 .circleImg {
-    width: 140px;
-    height: 140px;
+    width: 180px;
+    height: 180px;
     border-radius: 50%;
     overflow: hidden;
     background-color: rgb(207, 207, 207);
@@ -16,6 +16,16 @@
         width: 100%;
         height: auto;
     }
+}
+
+.card-evento {
+    width: 820px;
+    height: 220px;
+    background-color: #ffffff;
+    border-radius: 7px;
+    border: 1px solid #8e8ffe;
+    display: flex;
+    padding: 10px 40px 10px 40px;
 }
 
 .title {

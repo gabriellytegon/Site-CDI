@@ -44,7 +44,7 @@ const Home = () => {
         <>
             <Header></Header>
             <div id="cdi">
-                <h1>O que é a CDI?</h1>
+                <h1 className="titles-h2">O que é a CDI?</h1>
                 <p>
                     Além de ser um canal oficial de comunicação entre os alunos e os docentes, organizamos uma série de eventos como: cursos, palestras e visitas técnicas em parceria com a comunidade e com empresas tech.
                     <br></br>
