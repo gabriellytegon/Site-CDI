@@ -1,5 +1,6 @@
 .titles-h2 {
     font-size: 2rem !important;
+    color: #0108F8;
 }
 
 @media screen and (max-width: 500px) {
