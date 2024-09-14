@@ -16,7 +16,12 @@ p {
     font-weight: 600;
 }
 
-#cursos h2,
+#cursos h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #0108F8;
+    font-weight: 600;
+}
+
 #conceitos h2,
 #equipe h2 {
     text-align: center;
@@ -29,49 +34,74 @@ p {
 /* CDI */
 
 #cdi {
-    display: grid;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 #cdi h1 {
     margin-bottom: 5%;
 }
 
-#cdi p {
+#cdi > p {
     margin-inline: 10%;
+    width: 80%;
+    max-width: 1000px;
 }
 
 #conceitos {
-    display: grid;
-    grid-template-columns: 30% 30% 30%;
-    justify-content: space-between;
-    margin-inline: 11%;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    max-width: 1000px;
+    margin-top: 100px;
 }
 
 .conceito {
     background-color: #E4E5FF;
     border: 1px solid #0108F8;
-    border-radius: 10px;
-    padding: 2%;
+    border-radius: 20px;
+    width: 300px;
+    height: 250px;
+
+    padding: 25px 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.conceito h2 {
-    margin-top: 5%;
+.conceito > p {
+    width: 80%;
+    height: 200px;
+    margin-top: 15px;
+}
+
+#lista-valores {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
 #carousel {
     margin-inline: 5%;
+    width: 80vw;
+    margin-top: 100px;
 }
 
 /* Cursos */
 
 #cursos {
-    display: grid;
-}
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
-#cursos h1 {
-    margin-top: 10%;
+    gap: 5rem;
+    margin-top: 7rem;
 }
 
 #bsi,
@@ -79,63 +109,89 @@ p {
     background-color: #E4E5FF;
     border: 1px solid #0108F8;
     border-radius: 40px;
-    padding: 5%;
-    display: grid;
-    margin-inline: 4%;
-    margin-top: 5%;
+    width: 80vw;
+    padding: 60px;
+    box-sizing: border-box;
+    display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-#bsi {
-    grid-template-columns: 35% 61%;
+.conteudo-curso {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
 }
 
-#tads {
-    grid-template-columns: 61% 35%;
+.curso_texto {
+    width: 80%;
 }
 
-#bsi p,
-#tads p {
+#bsi > p,
+#tads > p {
     margin-top: 5%;
     margin-bottom: 5%;
 }
 
+#tads .curso_texto > h2 {
+    min-width: 600px;
+}
+
+.detalhes-curso {
+    margin-top: 2rem;
+}
+
+.imagem-curso {
+    width: 35%;
+}
+
 .botao {
-    padding-inline: 25%;
+    width: 80%;
+    max-width: 400px;
+    margin-top: 2rem;
 }
 
 /* Equipe */
 
 #equipe {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    padding-bottom: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    margin: 10rem 0;
 }
 
-#equipe h1 {
-    margin-top: 15%;
-    grid-column: 1 / span 2;
-}
+.areas {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 6rem !important;
+    column-gap: 4rem;
+    gap: 4rem;
+    width: 70%;
+    justify-content: center;
 
-.area h2 {
-    padding-top: 10%;
-    padding-bottom: 3%;
+    margin-top: 5rem;
 }
 
 .area {
-    margin: 1%;
-    padding: 1%;
-    padding-top: 10%;
-    display: grid;
-    grid-gap: 1%;
-    grid-template-columns: 50% 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 400px;
 }
 
-.area h2 {
-    grid-column: 1 / span 2;
+.area-title{
+    margin-bottom: 3rem;
 }
 
-.membro {
-    justify-self: center;
+.area-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    gap: 3rem;
 }
