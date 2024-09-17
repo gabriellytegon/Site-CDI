@@ -93,7 +93,12 @@ Para se inscrever no programa, o aluno deve acompanhar os editais divulgados no 
                             <h2 className='titles-h2'>Iniciação científica e tecnológica</h2>
                         </div>
                         <div className="iniciacao-content">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur nobis eum minima aliquam totam saepe, veniam id repudiandae quas placeat ad dolores. Ipsam, expedita? Libero a suscipit tenetur exercitationem in. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere numquam doloremque similique aliquid expedita ducimus voluptatem, nisi consequuntur corrupti modi tempora nesciunt cumque beatae. In consequuntur iusto quisquam reiciendis temporibus.</p>
+                            <p>
+                            Os Programas de Iniciação Científica e Tecnológica da Unicamp atendem alunos de graduação, colocando-os em contato direto com grupos e linhas de pesquisa para proporcionar aprendizagem de técnicas e métodos científicos.
+
+Visa estimular o desenvolvimento pessoal, profissional e o pensamento crítico; o aluno é orientado por um docente pesquisador experiente e atuante em sua respectiva área do conhecimento, sob as condições criadas pelo confronto direto com os problemas práticos da pesquisa.
+<a style={{color: '#0108f8', fontWeight: 600}} href="https://prp.unicamp.br/iniciacao-cientifica/pibic-pibiti/programas/">(https://prp.unicamp.br/iniciacao-cientifica/pibic-pibiti/programas/)</a>
+                            </p>
                         </div>
 
                     </div>
