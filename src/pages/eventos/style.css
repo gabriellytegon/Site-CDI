@@ -1,3 +1,9 @@
+#carousel-eventos {
+    margin-inline: 5%;
+    width: 80vw;
+    margin-top: 100px;
+}
+
 .eventContent {
     background-color: #e4e5ff;
     border-radius: 10px;

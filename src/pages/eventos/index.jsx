@@ -2,7 +2,7 @@ import Header from "../../components/Header";
 import "./style.css";
 import CardEvento from "../../components/CardEvento";
 import pinguim from '../../assets/images/Pinguim.jpeg'
-import Carrocel from "../../components/CardCarousel";
+import CardCarousel from "../../components/CardCarousel";
 import Footer from "../../components/Footer";
 
 
@@ -21,14 +21,11 @@ const Eventos = () => {
 
             <div className="container-fluid mb-5 mt-5">
                 <div className="row justify-content-center">
-                    <div className="col-8 pt-3">
+                    <div className="pt-3 w-100">
                         <h2 className="tittle text-center mb-3 titles-h2">Eventos já realizados</h2>
                         <p>A CDI é campeã em proporcionar experiências ÚNICAS e TRANSFORMADORAS. Acreditamos no poder da vivência a cima de tudo e por isso sempre nos preocupamos em preparar atividades imersivas aos alunos.</p>
-                        <div className="d-flex mt-5">
-                            <div className="square"></div>
-                            <div className="square"></div>
-                            <div className="square"></div>
-                            <div className="square"></div>
+                        <div id="carousel-eventos">
+                            <CardCarousel photos={photos}></CardCarousel>
                         </div>
                     </div>
 
