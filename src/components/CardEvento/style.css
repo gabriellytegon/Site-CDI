@@ -1,3 +1,16 @@
+.imagem-evento, .info-evento {
+    display: flex;
+}
+
+.imagem-evento {
+    justify-content: center;
+    align-items: center;
+}
+
+.info-evento {
+    flex-direction: column;
+}
+
 .textBody {
     div {
         font-size: 14px;
@@ -19,13 +32,15 @@
 }
 
 .card-evento {
-    width: 820px;
-    height: 220px;
+    min-width: 380px;
+    max-width: 800px;
+    width: 100%;
     background-color: #ffffff;
     border-radius: 7px;
     border: 1px solid #8e8ffe;
     display: flex;
-    padding: 10px 40px 10px 40px;
+    gap: 15px;
+    padding: 20px 40px 20px 40px;
 }
 
 .title {
@@ -46,4 +61,11 @@
 
 .btn-primary{
     background-color: blue;
+}
+
+@media screen and (max-width: 700px) {
+    .card-evento {
+        flex-direction: column;
+        flex-flow: column-reverse;
+    }
 }
