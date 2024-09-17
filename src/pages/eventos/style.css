@@ -1,3 +1,16 @@
+.container-eventos {
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-eventos p {
+    width: 80%;
+    max-width: 1400px;
+}
+
 #carousel-eventos {
     margin-inline: 5%;
     width: 80vw;
@@ -9,6 +22,14 @@
     border-radius: 10px;
     max-height: 80vh;
     overflow-y: scroll;
+    width: 95vw;
+    min-width: 400px;
+    max-width: 1000px;
+}
+
+.pinguim-container {
+    min-width: 300px;
+    max-width: 1000px; 
 }
 
 .eventContent::-webkit-scrollbar {
@@ -45,59 +66,4 @@
     height: 200px;
     background-color: #d9d9d9;
     margin-bottom: 50px;
-}
-
-@media (max-width: 1027px) {
-    .card-evento {
-        width: 500px;
-        padding: 0 20px 0px 20px;
-    }
-
-    @media (max-width: 668px) {
-        .card-evento {
-            width: 400px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-            height: 350px;
-            margin: 0;
-            padding: 0;
-            gap: 15px;
-        }
-
-        .btn-primary {
-            width: 100%;
-        }
-
-        .title {
-            margin-top: 10px;
-        }
-
-    }
-
-    @media (max-width: 460px) {
-        .card-evento {
-            width: 280px;
-            height: 450px;
-            gap: 15px;
-        }
-
-        .circleImg {
-            width: 10px;
-            height: 10px;
-        }
-
-        .subTitle {
-            display: flex;
-            flex-direction: column;
-            width: 100%;
-
-            span{
-                word-wrap: break-word;
-            }
-           
-
-          }
-    }
 }
