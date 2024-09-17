@@ -39,6 +39,48 @@ const Home = () => {
         'src/assets/images/carrossel/IMG-20240618-WA0065.jpg',
         'src/assets/images/carrossel/IMG-20240619-WA0051.jpg',
         'src/assets/images/carrossel/Screenshot_2024-06-19-19-20-47-544_com.instagram.android-edit.jpg'];
+    
+    const members = {
+        "Presidência": [
+            {nome: 'Rafael Henrique', avatarUrl: ''},
+            {nome: 'Matheus Andrade', avatarUrl: ''},
+        ],
+        "A.A.E.": [
+            {nome: 'Ana Carolina', avatarUrl: ''},
+        ],
+        Admistrativo: [
+            {nome: 'Brener Camargo', avatarUrl: ''},
+            {nome: 'Gabriel Gato', avatarUrl: ''},
+        ],
+        Eventos: [
+            {nome: 'Ana Clara', avatarUrl: ''},
+        ],
+        Financeiro: [
+            {nome: 'Carolina Quiterio', avatarUrl: ''},
+            {nome: 'Tales Dias', avatarUrl: ''},
+            {nome: 'Vitor Alves', avatarUrl: ''},
+        ],
+        "G.P." : [
+            {nome: 'Emily', avatarUrl: ''},
+            {nome: '', avatarUrl: ''},
+            {nome: '', avatarUrl: ''},
+            {nome: '', avatarUrl: ''},
+        ],
+        Marketing: [
+            {nome: 'Julia Fernandes', avatarUrl: ''},
+            {nome: 'Ori Minohara', avatarUrl: ''},
+            {nome: 'Ricardo Kenzo Koga', avatarUrl: ''},
+            {nome: '', avatarUrl: ''},
+        ],
+        Projetos: [
+            {nome: 'Gabrielly Tegon', avatarUrl: ''},
+            {nome: 'Raissa', avatarUrl: ''},
+            {nome: 'Higor Gabriel', avatarUrl: 'src/assets/images/membros/Cópia de Higor Gabriel - Administrativo_.jpg'},
+            {nome: 'Hitallo Azevedo', avatarUrl: ''},
+            {nome: 'Thiago', avatarUrl: ''},
+            {nome: 'Nelson', avatarUrl: ''},
+        ],
+    }
 
     return (
         <>
@@ -135,6 +177,8 @@ const Home = () => {
                 <h1 className="titles-h2">Conheça nossos membros!</h1>
 
                 <div className="areas">
+
+
                     <div className="area">
                         <div className="area-title">
                             <h2>Presidência</h2>
@@ -150,7 +194,6 @@ const Home = () => {
                             <h2>A.A.E.</h2>
                         </div>
                         <div className="area-members">
-
                             <div className="membro"><AvatarHome src="src/assets/images/membros/Cópia de Ana Carolina - Assuntos acadêmicos e estudantis.jpeg" alt="Ana Carolina" nome="Ana Carolina"></AvatarHome></div>
                             <div className="membro"><AvatarHome src="https://placehold.co/400" alt="..." nome="Nome e Sobrenome"></AvatarHome></div>
                             <div className="membro"><AvatarHome src="https://placehold.co/400" alt="..." nome="Nome e Sobrenome"></AvatarHome></div>
