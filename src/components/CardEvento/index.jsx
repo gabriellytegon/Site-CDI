@@ -4,7 +4,7 @@ function CardEvento(props) {
     return (
         <section>
             <div className='card-evento'>
-                <div className='col-8 d-flex flex-column justify-content-evenly'>
+                <div className='info-evento'>
 
                     <div className='title'>Nome do Evento <div className='subTitle'>Descrição: <span>{props.descricao}</span></div></div>
 
@@ -12,11 +12,11 @@ function CardEvento(props) {
                         <div className='subTitle'>Data: <span>{props.data}</span></div>
                         <div className='subTitle'>Hora: <span>{props.hora}</span></div>
                         <div className='subTitle mb-3'>Local: <span>{props.link}</span></div>
-                        <button type="button" class="btn btn-primary">Inscreva-se aqui</button>
+                        <button type="button" className="btn btn-primary">Inscreva-se aqui</button>
                     </div>
 
                 </div>
-                <div className='col-4 d-flex align-items-center justify-content-center'>
+                <div className='imagem-evento'>
                     <div className="circleImg">
                         <img src={props.imageUrl}></img>
                     </div>
