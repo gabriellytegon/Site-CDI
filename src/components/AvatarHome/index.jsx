@@ -1,6 +1,6 @@
 import './style.css'
 
-function AvatarHome({src, alt, nome}){
+function AvatarHome({src="https://placehold.co/400", alt, nome}){
     return(
         <div className="avatarHome">
             <img src={src} alt={alt} />
