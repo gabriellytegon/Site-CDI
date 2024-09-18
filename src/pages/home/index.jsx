@@ -40,47 +40,67 @@ const Home = () => {
         'src/assets/images/carrossel/IMG-20240619-WA0051.jpg',
         'src/assets/images/carrossel/Screenshot_2024-06-19-19-20-47-544_com.instagram.android-edit.jpg'];
     
-    const members = {
-        "Presidência": [
-            {nome: 'Rafael Henrique', avatarUrl: ''},
-            {nome: 'Matheus Andrade', avatarUrl: ''},
-        ],
-        "A.A.E.": [
-            {nome: 'Ana Carolina', avatarUrl: ''},
-        ],
-        Admistrativo: [
-            {nome: 'Brener Camargo', avatarUrl: ''},
-            {nome: 'Gabriel Gato', avatarUrl: ''},
-        ],
-        Eventos: [
-            {nome: 'Ana Clara', avatarUrl: ''},
-        ],
-        Financeiro: [
-            {nome: 'Carolina Quiterio', avatarUrl: ''},
-            {nome: 'Tales Dias', avatarUrl: ''},
-            {nome: 'Vitor Alves', avatarUrl: ''},
-        ],
-        "G.P." : [
-            {nome: 'Emily', avatarUrl: ''},
-            {nome: '', avatarUrl: ''},
-            {nome: '', avatarUrl: ''},
-            {nome: '', avatarUrl: ''},
-        ],
-        Marketing: [
-            {nome: 'Julia Fernandes', avatarUrl: ''},
-            {nome: 'Ori Minohara', avatarUrl: ''},
-            {nome: 'Ricardo Kenzo Koga', avatarUrl: ''},
-            {nome: '', avatarUrl: ''},
-        ],
-        Projetos: [
-            {nome: 'Gabrielly Tegon', avatarUrl: ''},
-            {nome: 'Raissa', avatarUrl: ''},
-            {nome: 'Higor Gabriel', avatarUrl: 'src/assets/images/membros/Cópia de Higor Gabriel - Administrativo_.jpg'},
-            {nome: 'Hitallo Azevedo', avatarUrl: ''},
-            {nome: 'Thiago', avatarUrl: ''},
-            {nome: 'Nelson', avatarUrl: ''},
-        ],
-    }
+    const members = [
+        {   
+            area: "Presidência",
+            members: [
+                {nome: 'Rafael Henrique', avatarUrl: 'src/assets/images/membros/Cópia de Rafael Henrique- Eventos e Relações Externas.jpg'},
+                {nome: 'Matheus Andrade', avatarUrl: 'src/assets/images/membros/Cópia de Matheus Andrade - Eventos.jpg'},
+            ],
+        },
+        {
+            area: "A.A.E.",
+            members: [
+                {nome: 'Ana Carolina', avatarUrl: 'src/assets/images/membros/Cópia de Ana Carolina - Assuntos acadêmicos e estudantis.jpeg'},
+            ],
+        },
+        {
+            area: "Admistrativo",
+            members: [
+                {nome: 'Brener Camargo', avatarUrl: 'src/assets/images/membros/Cópia de Brener Camargo - Administrativo.jpeg'},
+                {nome: 'Gabriel Gato', avatarUrl: 'src/assets/images/membros/Cópia de Gabriel Gato - Administrativo_Logística.jpg'},
+            ],
+        },
+        {
+            area: "Eventos",
+            members: [
+                {nome: 'Ana Clara', avatarUrl: 'src/assets/images/membros/Cópia de Ana Clara - Eventos.jpeg'},
+            ],
+        },
+        {
+            area: "Financeiro",
+            members: [
+                {nome: 'Carolina Quiterio', avatarUrl: 'src/assets/images/membros/Cópia de Carolina Quiterio - Gestão de Pessoas.HEIC'},
+                {nome: 'Tales Dias', avatarUrl: 'src/assets/images/membros/Cópia de Tales Dias - Financeiro.jpeg'},
+                {nome: 'Vitor Alves', avatarUrl: 'src/assets/images/membros/Cópia de Vitor Alves - Financeiro.heif'},
+            ],
+        },
+        {
+            area: "G.P.",
+            members: [
+                {nome: 'Emily', avatarUrl: 'src/assets/images/membros/Cópia de Emily - Projetos e Gestão de Pessoas.jpg'},
+            ],
+        },
+        {
+            area: "Marketing",
+            members: [
+                {nome: 'Julia Fernandes', avatarUrl: 'src/assets/images/membros/Cópia de Julia Fernandes - marketing e comunicação.jpeg'},
+                {nome: 'Ori Minohara', avatarUrl: 'src/assets/images/membros/Cópia de Ori Minohara - Marketing.png'},
+                {nome: 'Ricardo Kenzo Koga', avatarUrl: 'src/assets/images/membros/Cópia de Ricardo Kenzo Koga - Marketing.JPG'},
+            ],
+        },
+        {
+            area: "Projetos",
+            members: [
+                {nome: 'Gabrielly Tegon', avatarUrl: ''},
+                {nome: 'Raissa', avatarUrl: ''},
+                {nome: 'Higor Gabriel', avatarUrl: 'src/assets/images/membros/Cópia de Higor Gabriel - Administrativo_.jpg'},
+                {nome: 'Hitallo Azevedo', avatarUrl: ''},
+                {nome: 'Thiago', avatarUrl: ''},
+                {nome: 'Nelson', avatarUrl: ''},
+            ],
+        },
+    ]
 
     return (
         <>
@@ -178,99 +198,24 @@ const Home = () => {
 
                 <div className="areas">
 
+                    { 
+                        // Renderiza cada área e seus membros
+                        members.map((area) => (
+                            <div className="area" key={area.area}>
+                                <div className="area-title">
+                                    <h2>{area.area}</h2>
+                                </div>
+                                <div className="area-members">
+                                    {area.members.map((member) => (
+                                        <div className="membro" key={member.nome}>
+                                            <AvatarHome src={member.avatarUrl} alt={"Membro da CDI " + member.nome} nome={member.nome}></AvatarHome>
+                                        </div>
+                                    ))}
+                                </div>
+                            </div>
+                        ))
+                    }
 
-                    <div className="area">
-                        <div className="area-title">
-                            <h2>Presidência</h2>
-                        </div>
-                        <div className="area-members">
-
-                            <div className="membro"><AvatarHome src="src/assets/images/membros/Cópia de Rafael Henrique- Eventos e Relações Externas.jpg" alt="Rafael Henrique" nome="Rafael Henrique"></AvatarHome></div>
-                            <div className="membro"><AvatarHome src="src/assets/images/membros/Cópia de Matheus Andrade - Eventos.jpg" alt="Matheus Andrade" nome="Matheus Andrade"></AvatarHome></div>
-                        </div>
-                    </div>
-                    <div className="area">
-                        <div className="area-title">
-                            <h2>A.A.E.</h2>
-                        </div>
-                        <div className="area-members">
-                            <div className="membro"><AvatarHome src="src/assets/images/membros/Cópia de Ana Carolina - Assuntos acadêmicos e estudantis.jpeg" alt="Ana Carolina" nome="Ana Carolina"></AvatarHome></div>
-                            <div className="membro"><AvatarHome src="https://placehold.co/400" alt="..." nome="Nome e Sobrenome"></AvatarHome></div>
-                            <div className="membro"><AvatarHome src="https://placehold.co/400" alt="..." nome="Nome e Sobrenome"></AvatarHome></div>
-                            <div className="membro"><AvatarHome src="https://placehold.co/400" alt="..." nome="Nome e Sobrenome"></AvatarHome></div>
-                        </div>
-                    </div>
-                    <div className="area">
-                        <div className="area-title">
-                            <h2>Administrativo</h2>
-                        </div>
-                        <div className="area-members">
-
-                            <div className="membro"><AvatarHome src="src/assets/images/membros/Cópia de Brener Camargo - Administrativo.jpeg" alt="Brener Camargo" nome="Brener Camargo"></AvatarHome></div>
-                            <div className="membro"><AvatarHome src="src/assets/images/membros/Cópia de Gabriel Gato - Administrativo_Logística.jpg" alt="Gabriel Gato" nome="Gabriel Gato"></AvatarHome></div>
-                            <div className="membro"><AvatarHome src="https://placehold.co/400" alt="..." nome="Nome e Sobrenome"></AvatarHome></div>
-                            <div className="membro"><AvatarHome src="https://placehold.co/400" alt="..." nome="Nome e Sobrenome"></AvatarHome></div>
-                        </div>
-                    </div>
-                    <div className="area">
-                        <div className="area-title">
-                            <h2>Eventos</h2>
-                        </div>
-                        <div className="area-members">
-
-                            <div className="membro"><AvatarHome src="src/assets/images/membros/Cópia de Ana Clara - Eventos.jpeg" alt="Ana Clara" nome="Ana Clara"></AvatarHome></div>
-                            <div className="membro"><AvatarHome src="https://placehold.co/400" alt="..." nome="Nome e Sobrenome"></AvatarHome></div>
-                            <div className="membro"><AvatarHome src="https://placehold.co/400" alt="..." nome="Nome e Sobrenome"></AvatarHome></div>
-                            <div className="membro"><AvatarHome src="https://placehold.co/400" alt="..." nome="Nome e Sobrenome"></AvatarHome></div>
-                        </div>
-                    </div>
-                    <div className="area">
-                        <div className="area-title">
-                            <h2>Financeiro</h2>
-                        </div>
-                        <div className="area-members">
-
-                            <div className="membro"><AvatarHome src="src/assets/images/membros/Cópia de Carolina Quiterio - Gestão de Pessoas.HEIC" alt="Carolina Quiterio" nome="Carolina Quiterio"></AvatarHome></div>
-                            <div className="membro"><AvatarHome src="src/assets/images/membros/Cópia de Tales Dias - Financeiro.jpeg" alt="Tales Dias" nome="Tales Dias"></AvatarHome></div>
-                            <div className="membro"><AvatarHome src="src/assets/images/membros/Cópia de Vitor Alves - Financeiro.heif" alt="Vitor Alves" nome="Vitor Alves"></AvatarHome></div>
-                            <div className="membro"><AvatarHome src="https://placehold.co/400" alt="..." nome="Nome e Sobrenome"></AvatarHome></div>
-                        </div>
-                    </div>
-                    <div className="area">
-                        <div className="area-title">
-                            <h2>G.P.</h2>
-                        </div>
-                        <div className="area-members">
-
-                            <div className="membro"><AvatarHome src="src/assets/images/membros/Cópia de Emily - Projetos e Gestão de Pessoas.jpg" alt="Emily" nome="Emily"></AvatarHome></div>
-                            <div className="membro"><AvatarHome src="https://placehold.co/400" alt="..." nome="Nome e Sobrenome"></AvatarHome></div>
-                            <div className="membro"><AvatarHome src="https://placehold.co/400" alt="..." nome="Nome e Sobrenome"></AvatarHome></div>
-                            <div className="membro"><AvatarHome src="https://placehold.co/400" alt="..." nome="Nome e Sobrenome"></AvatarHome></div>
-                        </div>
-                    </div>
-                    <div className="area">
-                        <div className="area-title">
-                            <h2>Marketing</h2>
-                        </div>
-                        <div className="area-members">
-
-                            <div className="membro"><AvatarHome src="src/assets/images/membros/Cópia de Julia Fernandes - marketing e comunicação.jpeg" alt="Julia Fernandes" nome="Julia Fernandes"></AvatarHome></div>
-                            <div className="membro"><AvatarHome src="src/assets/images/membros/Cópia de Ori Minohara - Marketing.png" alt="Ori Minohara" nome="Ori Minohara"></AvatarHome></div>
-                            <div className="membro"><AvatarHome src="src/assets/images/membros/Cópia de Ricardo Kenzo Koga - Marketing.JPG" alt="Ricardo Kenzo Koga" nome="Ricardo Kenzo Koga"></AvatarHome></div>
-                            <div className="membro"><AvatarHome src="https://placehold.co/400" alt="..." nome="Nome e Sobrenome"></AvatarHome></div>
-                        </div>
-                    </div>
-                    <div className="area">
-                        <div className="area-title">
-                            <h2>Projetos</h2>
-                        </div>
-                        <div className="area-members">
-                            <div className="membro"><AvatarHome src="src/assets/images/membros/Cópia de Higor Gabriel - Administrativo_.jpg" alt="Higor Gabriel" nome="Higor Gabriel"></AvatarHome></div>
-                            <div className="membro"><AvatarHome src="src/assets/images/membros/Cópia de Renan Martins - Projetos.jpeg" alt="Renan Martins" nome="Renan Martins"></AvatarHome></div>
-                            <div className="membro"><AvatarHome src="https://placehold.co/400" alt="..." nome="Nome e Sobrenome"></AvatarHome></div>
-                            <div className="membro"><AvatarHome src="https://placehold.co/400" alt="..." nome="Nome e Sobrenome"></AvatarHome></div>
-                        </div>
-                    </div>
                 </div>
             </div>
             <Footer></Footer>
