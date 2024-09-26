@@ -47,6 +47,10 @@
         padding: 20px;
     }
 
+    #intercampi > article > .text-content{
+        width: 100%;
+    }
+
     #intercampi {
         height: 70vh;
         margin-top: 15rem;
