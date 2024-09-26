@@ -1,4 +1,4 @@
-@media screen and (max-width: 700px){
+@media screen and (max-width: 700px) and (min-width: 200px){
     #intercampi > aside img {
         display: none;
     }
@@ -6,10 +6,6 @@
     #more .title h2 {
         font-size: 1.3rem;
         margin-bottom: 2rem;
-    }
-
-    #bandeco {
-        margin-top: 7rem !important;
     }
 
     .bandeco-horarios {
@@ -29,9 +25,48 @@
         width: 350px;
         height: 200px;
     }
+
+    .cardapio-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-width: 370px;
+        max-width: 375px;
+    }
+
+    #intercampi > article {
+        flex-direction: column;
+    }
+
+    #intercampi > article > .buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        width: 90%;
+        max-width: 400px;
+        padding: 20px;
+    }
+
+    #intercampi {
+        height: 70vh;
+        margin-top: 15rem;
+    }
+
+    #more {
+        display: flex;
+        align-items: center;
+    }
+
+    #more .title {
+        width: 90%;
+    }
+
+    #more .title h2 {
+        text-align: center;
+    }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1000px) and (min-width: 701px) {
     #bandeco {
         margin-top: 10rem;
     }
@@ -39,6 +74,11 @@
     #intercampi {
         height: 70vh;
         margin-top: 15rem;
+    }
+
+    #more .title h2 {
+        font-size: 1.3rem;
+        margin-bottom: 2rem;
     }
 
     #intercampi > article {
@@ -68,22 +108,184 @@
         top: -122px;
         right: 21px;
     }
+
+    .cardapio-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-width: 800px;
+    }
+
+    #intercampi > aside img {
+        display: none;
+    }
+
+    #more .title h2 {
+        font-size: 1.3rem;
+        margin-bottom: 2rem;
+    }
+
+    .bandeco-horarios {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #bandeco .horarios h2 {
+        font-family: 'Roboto', sans-serif;
+        color: #0108F8;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .video-container iframe {
+        width: 350px;
+        height: 200px;
+    }
+
+    #iframeCardapio {
+        height: 1000px;
+    }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (max-width: 1280px) and (min-width: 1001px) {
+
+    #bandeco {
+        margin-top: 10rem;
+    }
+
+    #intercampi {
+        height: 70vh;
+        margin-top: 15rem;
+    }
+
+    #more .title h2 {
+        font-size: 1.3rem;
+        margin-bottom: 2rem;
+    }
+
+    #intercampi > article {
+        flex-direction: column;
+    }
+
+    #intercampi > article > .buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        width: 90%;
+        max-width: 400px;
+        padding: 20px;
+    }
+
+    #intercampi > article > .text-content p {
+        width: 100%;
+    }
+
+    #intercampi > article > .text-content > h1 {
+        font-size: 3rem;
+    }
+
+    #intercampi #penguin{
+        position: absolute;
+        width: 160px;
+        top: -122px;
+        right: 21px;
+    }
+
+    #intercampi > aside img {
+        display: none;
+    }
+
+    #more .title h2 {
+        font-size: 1.3rem;
+        margin-bottom: 2rem;
+    }
+
+    .bandeco-horarios {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #bandeco .horarios h2 {
+        font-family: 'Roboto', sans-serif;
+        color: #0108F8;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .video-container iframe {
+        width: 450px;
+        height: 260px;
+    }
+    
     #bandeco > .title h1{
         font-size: 2.5rem;
     }
     #bandeco > .title h2{
         font-size: 1.8rem;
     }
+
+    .cardapio-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-width: 800px;
+    }
+
+    #iframeCardapio {
+        height: 1000px;
+    }
+
+    #intercampi > article {
+        flex-direction: row;
+        gap: 2rem;
+    }
+
+    #intercampi {
+        height: 50vh;
+        margin-top: 15rem;
+    }
 }
 
-@media screen and (min-width: 1366px) {
+@media screen and (max-width: 1366px) and (min-width: 1281px){
+
+    .cardapio-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-width: 800px;
+    }
+
+    .video-container iframe {
+        width: 450px;
+        height: 260px;
+    }
+
+    #iframeCardapio {
+        height: 1000px;
+    }
+
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1367px){
     #bandeco > .content {
         height: 30%;
+    }
+
+    .cardapio-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-width: 800px;
+    }
+
+    .video-container iframe {
+        width: 550px;
+        height: 310px;
+    }
+
+    #iframeCardapio {
+        height: 1000px;
     }
 }
