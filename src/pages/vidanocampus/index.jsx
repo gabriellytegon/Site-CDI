@@ -43,7 +43,9 @@ const VidaNoCampus = () => {
                         </div>
                     </div>
                 </div>
-                <Cardapio></Cardapio>
+                <div className="cardapio-container">
+                    <Cardapio></Cardapio>
+                </div>
             </div>
 
 
