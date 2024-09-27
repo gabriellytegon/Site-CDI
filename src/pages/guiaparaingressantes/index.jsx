@@ -16,7 +16,7 @@ const GuiaParaIngressantes = () => {
                     <h2 className='titles-h2'>Mapa do campus</h2>
                 </div>
                 <div className="content">
-                    <img src="src\assets\images\mapa-campus.png" alt="mapa do campus" id='mapa' />
+                    <img src="/assets/images/mapa-campus.png" alt="mapa do campus" id='mapa' />
                 </div>
             </div>
 
@@ -106,7 +106,7 @@ Visa estimular o desenvolvimento pessoal, profissional e o pensamento crítico; 
                 </article>
 
                 <aside>
-                    <img id="aviao" src="src\assets\images\logoaviao.svg" alt="imagem de um avião em um globo" />
+                    <img id="aviao" src="/assets/images/logoaviao.svg" alt="imagem de um avião em um globo" />
 
 
                 </aside>

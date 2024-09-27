@@ -1,8 +1,8 @@
 import './style.css';
-import logoInstagram from '../../assets/images/logoInstagramCdi.svg';
-import logoGmailCdi from '../../assets/images/logoGmailCdi.svg';
-import logolinkedinCdi from '../../assets/images/logolinkedinCdi.svg';
-import logoCDI from '../../assets/images/logoCdi.svg';
+import logoInstagram from '/assets/images/logoInstagramCdi.svg';
+import logoGmailCdi from '/assets/images/logoGmailCdi.svg';
+import logolinkedinCdi from '/assets/images/logolinkedinCdi.svg';
+import logoCDI from '/assets/images/logoCdi.svg';
 
 const Footer = () => {
     return (

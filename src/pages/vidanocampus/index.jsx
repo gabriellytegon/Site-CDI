@@ -1,7 +1,7 @@
 import Header from "../../components/Header";
 import Button from "../../components/Button";
 import Cardapio from "../../components/Cardapio";
-import penguin from '../../assets/images/Pinguim.jpeg'
+import penguin from '/assets/images/Pinguim.jpeg'
 import './style.css'
 import './media.css'
 import Footer from "../../components/Footer";

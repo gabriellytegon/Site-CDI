@@ -1,8 +1,8 @@
 import './style.css'
 import './media.css'
 import { Link } from 'react-router-dom'
-import logoCDI from '../../assets/icons/logoCDI.svg'
-import menuIcon from '../../assets/icons/menuIcon.svg'
+import logoCDI from '/assets/icons/logoCDI.svg'
+import menuIcon from '/assets/icons/menuIcon.svg'
 import { useState } from 'react'
 
 /*
