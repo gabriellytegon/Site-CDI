@@ -7,7 +7,7 @@ import Footer from "../../components/Footer";
 
 const Eventos = () => {
   const photos = [
-    "src/assets/images/eventos/imagem_2024-06-19_191234553.png",
+    "../../../assets/images/eventos/imagem_2024-06-19_191234553.png",
     "src/assets/images/eventos/IMG-20240523-WA0037.jpg",
     "src/assets/images/eventos/IMG-20231110-WA0035.jpg",
     "src/assets/images/eventos/IMG-20240425-WA0075.jpg",
