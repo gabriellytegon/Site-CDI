@@ -73,21 +73,20 @@ const Eventos = () => {
             </div>
           </div>
         </div>
-        <div className="row justify-content-center">
-          <div className="col-10 pt-5 pb-5 eventContent">
+          <div className="eventContent">
             <h2 className="tittle text-center titles-h2">Mural de Eventos</h2>
             <p className="text-center">
               Acompanhe o nosso mural para ficar por dentro dos próximos eventos
               que ocorrerão:
             </p>
-            <div className="aling-card flex gap-3">
+            <div className="event-cards">
               <CardEvento
                 width="820px"
                 height="220px"
                 title="Evento 1"
                 data="01/01/2021"
                 hora="19:00"
-                descricao="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+                descricao="XXXX XXXXX XXXXXXXdfff fffff ffffff fXXXXXX XXXXXXX XXXXXXX"
               ></CardEvento>
 
               <CardEvento
@@ -96,7 +95,7 @@ const Eventos = () => {
                 title="Evento 1"
                 data="01/01/2021"
                 hora="19:00"
-                descricao="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+                descricao="XXXXXXXXXXX XXXXXXXXXXX XXXXXXXXXX"
               ></CardEvento>
 
               <CardEvento
@@ -105,7 +104,7 @@ const Eventos = () => {
                 title="Evento 1"
                 data="01/01/2021"
                 hora="19:00"
-                descricao="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+                descricao="XXXXXXXXX XXXXXXXXXXXXX XXXXXXXXXX"
               ></CardEvento>
 
               <CardEvento
@@ -114,12 +113,11 @@ const Eventos = () => {
                 title="Evento 1"
                 data="01/01/2021"
                 hora="19:00"
-                descricao="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+                descricao="XXXXXX XXXXXXXXX XXXXXXXX XXXXXXXXX"
               ></CardEvento>
             </div>
           </div>
         </div>
-      </div>
       <Footer></Footer>
     </>
   );
