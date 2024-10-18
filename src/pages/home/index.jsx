@@ -50,7 +50,7 @@ const members = [
           avatarUrl: "/assets/images/membros/Presidencia/Matheus.png",
         },
         {
-          nome: "Rafa - Presidência",
+          nome: "Rafa",
           avatarUrl:
             "/assets/images/membros/Presidencia/Rafa - Presidência.png",
         },
@@ -60,33 +60,33 @@ const members = [
       area: "Administrativo",
       members: [
         {
-          nome: "Brener Camargo - ADM",
+          nome: "Brener Camargo",
           avatarUrl:
             "/assets/images/membros/Administrativo/Brener Camargo - ADM.jpg",
         },
         {
-          nome: "Daniel-ADM",
+          nome: "Daniel",
           avatarUrl: "/assets/images/membros/Administrativo/Daniel-ADM.png",
         },
         {
-          nome: "Gabriel Gato-ADM",
+          nome: "Gabriel Gato",
           avatarUrl:
             "/assets/images/membros/Administrativo/Gabriel Gato-ADM.jpg",
         },
         {
-          nome: "Gino-ADM",
+          nome: "Gino",
           avatarUrl: "/assets/images/membros/Administrativo/Gino-ADM.png",
         },
         {
-          nome: "Karen-ADM",
+          nome: "Karen",
           avatarUrl: "/assets/images/membros/Administrativo/Karen-ADM.png",
         },
         {
-          nome: "Pedro-ADM",
+          nome: "Pedro",
           avatarUrl: "/assets/images/membros/Administrativo/Pedro-ADM.png",
         },
         {
-          nome: "Samuel-ADM",
+          nome: "Samuel",
           avatarUrl: "/assets/images/membros/Administrativo/Samuel-ADM.png",
         },
       ],
@@ -158,23 +158,23 @@ const members = [
           avatarUrl: "/assets/images/membros/Finanças/Beatriz Galvao.jpeg",
         },
         {
-          nome: "Carolina-Finanças",
+          nome: "Carolina",
           avatarUrl: "/assets/images/membros/Finanças/Carolina-Finanças.jpg",
         },
         {
-          nome: "Davie-Finanças",
+          nome: "Davie",
           avatarUrl: "/assets/images/membros/Finanças/Davie-Finanças.png",
         },
         {
-          nome: "Marcos-Finanças",
+          nome: "Marcos",
           avatarUrl: "/assets/images/membros/Finanças/Marcos-Finanças.png",
         },
         {
-          nome: "Nathália-Finanças",
+          nome: "Nathália",
           avatarUrl: "/assets/images/membros/Finanças/Nathália-Finanças.png",
         },
         {
-          nome: "Tales-Finanças",
+          nome: "Tales",
           avatarUrl: "/assets/images/membros/Finanças/Tales-Finanças.jpeg",
         },
       ],
@@ -183,7 +183,7 @@ const members = [
       area: "Gestão de Pessoas",
       members: [
         {
-          nome: "Andrezza-Gestão-de-Pessoas",
+          nome: "Andrezza",
           avatarUrl:
             "/assets/images/membros/Gestão de Pessoas/Andrezza-Gestão-de-Pessoas.png",
         },
@@ -196,7 +196,7 @@ const members = [
           avatarUrl: "/assets/images/membros/Gestão de Pessoas/Hans.jpeg",
         },
         {
-          nome: "Laura-Gestão-de-Pessoas",
+          nome: "Laura",
           avatarUrl:
             "/assets/images/membros/Gestão de Pessoas/Laura-Gestão-de-Pessoas.png",
         },
@@ -216,7 +216,7 @@ const members = [
             "/assets/images/membros/Marketing/Bruno Ricardo Corrêa.png",
         },
         {
-          nome: "Cópia de Julia Fernandes - marketing e comunicação",
+          nome: "Julia Fernandes",
           avatarUrl:
             "/assets/images/membros/Marketing/Cópia de Julia Fernandes - marketing e comunicação.jpeg",
         },
@@ -244,7 +244,7 @@ const members = [
             "/assets/images/membros/Marketing/Marcelo dos Santos da Boa Morte.png",
         },
         {
-          nome: "Ori Minohara - Marketing",
+          nome: "Ori Minohara",
           avatarUrl:
             "/assets/images/membros/Marketing/Ori Minohara - Marketing.png",
         },
@@ -267,7 +267,7 @@ const members = [
           avatarUrl: "/assets/images/membros/Projetos/Gaby.jpeg",
         },
         {
-          nome: "Higor Gabriel-Projetos",
+          nome: "Higor Gabriel",
           avatarUrl:
             "/assets/images/membros/Projetos/Higor Gabriel-Projetos.jpg",
         },
@@ -276,20 +276,20 @@ const members = [
           avatarUrl: "/assets/images/membros/Projetos/Hitallo.jpeg",
         },
         {
-          nome: "Nelson-Projetos",
+          nome: "Nelson",
           avatarUrl: "/assets/images/membros/Projetos/Nelson-Projetos.png",
         },
         {
-          nome: "Raissa-Projetos",
+          nome: "Raissa",
           avatarUrl: "/assets/images/membros/Projetos/Raissa-Projetos.png",
         },
         {
-          nome: "Renan Martins-Projetos",
+          nome: "Renan Martins",
           avatarUrl:
             "/assets/images/membros/Projetos/Renan Martins-Projetos.jpeg",
         },
         {
-          nome: "Thyago-Projetos",
+          nome: "Thyago",
           avatarUrl: "/assets/images/membros/Projetos/Thyago-Projetos.JPG",
         },
       ],
