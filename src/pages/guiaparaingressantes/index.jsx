@@ -83,7 +83,8 @@ O acordo prevê a realização de parte do curso no Brasil e parte no exterior, 
 
 O aluno formado por um programa de dupla diplomação fica habilitado a exercer sua profissão em ambos os países.  
 
-Para se inscrever no programa, o aluno deve acompanhar os editais divulgados no site da Deri (Diretoria Executiva de Relações Internacionais) <a style={{color: '#0108f8', fontWeight: 600}} href="http://www.internationaloffice.unicamp.br/">http://www.internationaloffice.unicamp.br/</a></p>
+Para se inscrever no programa, o aluno deve acompanhar os editais divulgados no site da Deri (Diretoria Executiva de Relações Internacionais) <a style={{color: '#0108f8', fontWeight: 600, display: 'flex'}} href="http://www.internationaloffice.unicamp.br/">http://www.internationaloffice.unicamp.br/</a>
+                            </p>
                         </div>
 
                     </div>
