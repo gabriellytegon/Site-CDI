@@ -6,7 +6,7 @@
     justify-content: center;
 }
 
-.container-eventos p {
+.container-eventos > p {
     width: 80%;
     max-width: 1400px;
 }
@@ -23,8 +23,22 @@
     max-height: 80vh;
     overflow-y: scroll;
     width: 95vw;
-    min-width: 400px;
+    min-width: 370px;
     max-width: 1000px;
+    padding: 0;
+    padding: 50px 0 50px 0;
+
+    margin: auto;
+}
+
+.event-cards {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: auto;
 }
 
 .pinguim-container {
