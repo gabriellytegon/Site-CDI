@@ -155,7 +155,7 @@ const Home = () => {
                             Até 2026, pretendemos aumentar em 50% nosso impacto na comunidade de T.I.
                         </p>
                     </div>
-                    <div className="conceito">
+                    <div className="conceito-valores">
                         <h2>Valores</h2>
                         <p id="lista-valores">
                             <span><img src={checkIcon} alt="icone de check" /> Comprometimento</span>
