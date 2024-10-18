@@ -1,15 +1,15 @@
 import './style.css';
 
-function CardEvento(props) {
+function CardEvento({ nomeEvento, data, local, hora, descricao, imageUrl}) {
     return (
         <div className='card-evento'>
             <div className='info-evento'>
                 <div className="event-details">
-                    <h3>{props.nomeEvento}</h3>
-                    <p id='event-description'><strong>Descrição:</strong> {props.descricao}</p>
-                    <p><strong>Data:</strong> {props.data}</p>
-                    <p><strong>Local:</strong> {props.local}</p>
-                    <p><strong>Hora:</strong> {props.hora}</p>
+                    <h3>{nomeEvento}</h3>
+                    <p id='event-description'><strong>Descrição:</strong> {descricao}</p>
+                    <p><strong>Data:</strong> {data}</p>
+                    <p><strong>Local:</strong> {local}</p>
+                    <p><strong>Hora:</strong> {hora}</p>
                 </div>
 
                 <div>
@@ -20,7 +20,7 @@ function CardEvento(props) {
             </div>
             <div className='imagem-evento'>
                 <div className="circleImg">
-                    <img src={props.imageUrl}></img>
+                    <img src={imageUrl}></img>
                 </div>
             </div>
         </div>
