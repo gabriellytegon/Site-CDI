@@ -81,36 +81,28 @@ const Eventos = () => {
             </p>
             <div className="event-cards">
               <CardEvento
-                width="820px"
-                height="220px"
-                title="Evento 1"
+                nomeEvento="nome do evento"
                 data="01/01/2021"
                 hora="19:00"
                 descricao="XXXX XXXXX XXXXXXXdfff fffff ffffff fXXXXXX XXXXXXX XXXXXXX"
               ></CardEvento>
 
               <CardEvento
-                width="820px"
-                height="220px"
-                title="Evento 1"
+                nomeEvento="nome do evento"
                 data="01/01/2021"
                 hora="19:00"
                 descricao="XXXXXXXXXXX XXXXXXXXXXX XXXXXXXXXX"
               ></CardEvento>
 
               <CardEvento
-                width="820px"
-                height="220px"
-                title="Evento 1"
+                nomeEvento="nome do evento"
                 data="01/01/2021"
                 hora="19:00"
                 descricao="XXXXXXXXX XXXXXXXXXXXXX XXXXXXXXXX"
               ></CardEvento>
 
               <CardEvento
-                width="820px"
-                height="220px"
-                title="Evento 1"
+                nomeEvento="nome do evento"
                 data="01/01/2021"
                 hora="19:00"
                 descricao="XXXXXX XXXXXXXXX XXXXXXXX XXXXXXXXX"
