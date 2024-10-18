@@ -6,10 +6,10 @@ function CardEvento(props) {
             <div className='info-evento'>
                 <div className="event-details">
                     <h3>{props.nomeEvento}</h3>
-                    <p>Descrição: {props.descricao}</p>
-                    <p>Data: {props.data}</p>
-                    <p>Local: {props.local}</p>
-                    <p>Hora: {props.hora}</p>
+                    <p id='event-description'><strong>Descrição:</strong> {props.descricao}</p>
+                    <p><strong>Data:</strong> {props.data}</p>
+                    <p><strong>Local:</strong> {props.local}</p>
+                    <p><strong>Hora:</strong> {props.hora}</p>
                 </div>
 
                 <div>
