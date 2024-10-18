@@ -2,7 +2,6 @@
 
 p {
     font-family: 'Montserrat', sans-serif;
-    line-height: 1.2rem;
     text-align: justify;
 }
 
@@ -77,6 +76,7 @@ p {
 .conceito > p {
     width: 80%;
     margin-top: 15px;
+    text-align: center;
     height: 160px;
     text-align: center;
     line-height: 1.5rem;

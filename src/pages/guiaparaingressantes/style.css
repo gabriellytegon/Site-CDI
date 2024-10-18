@@ -149,12 +149,6 @@ body {
   }
 
   #aviao{
-    /* display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 70%;
-    margin: 2rem 0; */
     display: none;
   }
   
