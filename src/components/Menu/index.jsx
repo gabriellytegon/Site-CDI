@@ -3,7 +3,7 @@ import './media.css'
 import { Link } from 'react-router-dom'
 import logoCDI from '/assets/icons/logoCDI.svg'
 import menuIcon from '/assets/icons/menuIcon.svg'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 
 /*
     Este é o componente Menu, por padrão ele utilizará a opção para home page.
@@ -17,6 +17,72 @@ const Menu = ({forHome='yes'}) => {
 
     const [windowWidth] = useState(window.innerWidth);
     const [isOpen, setIsOpen] = useState(windowWidth < 1000 ? false : true);
+
+    // eslint-disable-next-line no-unused-vars
+    const [pageName, _] = useState(document.URL)
+    const [pageIndicator, setPageIndicator] = useState({
+        sobrenos: '',
+        eventos: '',
+        professores: '',
+        guiaparaingressantes: '',
+        vidanocampus: ''
+    })
+
+    useEffect(() => {
+        let page = pageName.split('/')
+        page = page[page.length - 1]
+        switch (page) {
+            case "":
+                setPageIndicator({
+                    eventos: "",
+                    vidanocampus: "",
+                    guiaparaingressantes: "",
+                    professores: "",
+                    sobrenos: "index"
+                })
+                break
+                
+            case "eventos":
+                setPageIndicator({
+                    eventos: "index",
+                    vidanocampus: "",
+                    guiaparaingressantes: "",
+                    professores: "",
+                    sobrenos: ""
+                })
+                break
+
+            case "professores":
+                setPageIndicator({
+                    eventos: "",
+                    vidanocampus: "",
+                    guiaparaingressantes: "",
+                    professores: "index",
+                    sobrenos: ""
+                })
+                break
+
+            case "guiaparaingressantes":
+                setPageIndicator({
+                    eventos: "",
+                    vidanocampus: "",
+                    guiaparaingressantes: "index",
+                    professores: "",
+                    sobrenos: ""
+                })
+                break
+
+            case "vidanocampus":
+                setPageIndicator({
+                    eventos: "",
+                    vidanocampus: "index",
+                    guiaparaingressantes: "",
+                    professores: "",
+                    sobrenos: ""
+                })
+                break
+        }
+    }, [pageName])
 
 
     function openNavigation() {
@@ -59,22 +125,22 @@ const Menu = ({forHome='yes'}) => {
                     <nav style={{display: isOpen ? 'block' : 'none'}} id='navbar'>
                         <ul>
                             <li>
-                                <Link to={'/'}>Sobre nós</Link>
+                                <Link to={'/'}><div className={`${pageIndicator.sobrenos}`}>Sobre nós</div></Link>
                             </li>
                             <li>
-                                <Link to={'/eventos'}>Eventos</Link>
+                                <Link to={'/eventos'}><div className={`${pageIndicator.eventos}`}>Eventos</div></Link>
                             </li>
                             <li>
-                                <Link to={'/professores'}>Professores</Link>
+                                <Link to={'/professores'}><div className={`${pageIndicator.professores}`}>Professores</div></Link>
                             </li>
                             <li>
-                                <Link to={'/guiaparaingressantes'}>Guia para ingressantes</Link>
+                                <Link to={'/guiaparaingressantes'}><div className={`${pageIndicator.guiaparaingressantes}`}>Guia para ingressantes</div></Link>
                             </li>
                             <li>
-                                <Link to={'/vidanocampus'}>Vida no campus</Link>
+                                <Link to={'/vidanocampus'}><div className={`${pageIndicator.vidanocampus}`}>Vida no campus</div></Link>
                             </li>
                             <li>
-                            <a href="#footer">Contato</a>
+                                <a href="#footer">Contato</a>
                             </li>
                         </ul>
                     </nav>
