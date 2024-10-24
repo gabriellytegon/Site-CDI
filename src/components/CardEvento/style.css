@@ -32,15 +32,16 @@
 }
 
 .card-evento {
-    min-width: 300px;
+    min-width: 540px;
     max-width: 800px;
-    width: 100%;
+    width: 80%;
     background-color: #ffffff;
     border-radius: 7px;
     border: 1px solid #8e8ffe;
     display: flex;
-    gap: 15px;
     padding: 20px 40px 20px 40px;
+    justify-content: space-between;
+    gap: 1rem;
 }
 
 .title {
@@ -63,9 +64,24 @@
     background-color: blue;
 }
 
+.event-details > p {
+    width: 90%;
+    line-height: 1rem;
+}
+
+#event-description {
+    line-height: 1.5rem;
+}
+
 @media screen and (max-width: 700px) {
     .card-evento {
         flex-direction: column;
         flex-flow: column-reverse;
+        min-width: 320px;
+        width: 90%;
+    }
+
+    .event-details > p {
+        width: 100%;
     }
 }

@@ -63,27 +63,47 @@ p {
     border: 1px solid #0108F8;
     border-radius: 20px;
     width: 300px;
-    height: 250px;
+    height: 280px;
 
     padding: 25px 10px;
 
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
 .conceito > p {
     width: 80%;
-    height: 200px;
     margin-top: 15px;
     text-align: center;
+    height: 160px;
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+.conceito-valores {
+    background-color: #E4E5FF;
+    border: 1px solid #0108F8;
+    border-radius: 20px;
+    width: 300px;
+    height: 280px;
+
+    padding: 25px 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
 #lista-valores {
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
     gap: 15px;
+    height: 220px;
 }
 
 #carousel {
@@ -192,6 +212,7 @@ p {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width: 400px;
+    width: 90vw;
+    max-width: 400px;
     gap: 3rem;
 }
