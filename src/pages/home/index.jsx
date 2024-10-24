@@ -125,7 +125,7 @@ const members = [
           nome: "Giovana Ruiz de Souza",
           avatarUrl: "/assets/images/membros/Eventos/Giovana Ruiz de Souza.png",
         },
-        { nome: "Koga", avatarUrl: "/assets/images/membros/Eventos/Koga.jpeg" },
+        { nome: "Koga", avatarUrl: "/assets/images/membros/Eventos/Koga.jpg" },
         {
           nome: "Leo Bonfa",
           avatarUrl: "/assets/images/membros/Eventos/Leo Bonfa.jpg",
@@ -151,7 +151,7 @@ const members = [
       members: [
         {
           nome: "Alves",
-          avatarUrl: "/assets/images/membros/Finanças/Alves.jpeg",
+          avatarUrl: "/assets/images/membros/Finanças/Alves.jpg",
         },
         {
           nome: "Beatriz Galvao",
