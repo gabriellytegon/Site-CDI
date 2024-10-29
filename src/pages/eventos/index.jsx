@@ -44,6 +44,27 @@ const Eventos = () => {
     "/assets/images/eventos/IMG-20230816-WA0050.jpg",
   ];
 
+  const eventos = [
+    // {
+    //   id: 0,
+    //   nomeEvento: "",
+    //   data: "",
+    //   hora: "",
+    //   descricao: "",
+    //   imageUrl: "",
+    //   local: ""
+    // },
+    // {
+    //   id: 1,
+    //   nomeEvento: "",
+    //   data: "",
+    //   hora: "",
+    //   descricao: "",
+    //   imageUrl: "",
+    //   local: ""
+    // }
+  ]
+
   return (
     <>
       <Header
@@ -80,33 +101,17 @@ const Eventos = () => {
               que ocorrerão:
             </p>
             <div className="event-cards">
-              <CardEvento
-                nomeEvento="nome do evento"
-                data="01/01/2021"
-                hora="19:00"
-                descricao="XXXX XXXXX XXXXXXXdfff fffff ffffff fXXXXXX XXXXXXX XXXXXXX"
-              ></CardEvento>
-
-              <CardEvento
-                nomeEvento="nome do evento"
-                data="01/01/2021"
-                hora="19:00"
-                descricao="XXXXXXXXXXX XXXXXXXXXXX XXXXXXXXXX"
-              ></CardEvento>
-
-              <CardEvento
-                nomeEvento="nome do evento"
-                data="01/01/2021"
-                hora="19:00"
-                descricao="XXXXXXXXX XXXXXXXXXXXXX XXXXXXXXXX"
-              ></CardEvento>
-
-              <CardEvento
-                nomeEvento="nome do evento"
-                data="01/01/2021"
-                hora="19:00"
-                descricao="XXXXXX XXXXXXXXX XXXXXXXX XXXXXXXXX"
-              ></CardEvento>
+              {(eventos.length > 0) ? eventos.map((evento) => (
+                <CardEvento
+                  nomeEvento={evento.nomeEvento}
+                  data={evento.data}
+                  hora={evento.hora}
+                  imageUrl={evento.imageUrl}
+                  descricao={evento.descricao}
+                  local={evento.local}
+                  key={evento.id}
+                ></CardEvento>
+              )) : <h2>Não há eventos no momento</h2>}
             </div>
           </div>
         </div>
