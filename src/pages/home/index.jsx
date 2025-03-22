@@ -175,7 +175,7 @@ const members = [
         },
         {
           nome: "Thyago",
-          avatarUrl: "/assets/images/membros/projetos/thyago"
+          avatarUrl: "/assets/images/membros/projetos/thyago.png"
         },
         {
           nome: "Guilherme Ramalho",
