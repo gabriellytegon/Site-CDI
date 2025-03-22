@@ -43,51 +43,15 @@ const Home = () => {
 
 const members = [
     {
-      area: "Presidencia",
+      area: "Presidência",
       members: [
         {
-          nome: "Matheus",
-          avatarUrl: "/assets/images/membros/Presidencia/Matheus.png",
+          nome: "Duda Gomes",
+          avatarUrl: "/assets/images/membros/presidencia/duda.jpeg",
         },
         {
-          nome: "Rafa",
-          avatarUrl:
-            "/assets/images/membros/Presidencia/Rafa - Presidência.png",
-        },
-      ],
-    },
-    {
-      area: "Administrativo",
-      members: [
-        {
-          nome: "Brener Camargo",
-          avatarUrl:
-            "/assets/images/membros/Administrativo/Brener Camargo - ADM.jpg",
-        },
-        {
-          nome: "Daniel",
-          avatarUrl: "/assets/images/membros/Administrativo/Daniel-ADM.png",
-        },
-        {
-          nome: "Gabriel Gato",
-          avatarUrl:
-            "/assets/images/membros/Administrativo/Gabriel Gato-ADM.jpg",
-        },
-        {
-          nome: "Gino",
-          avatarUrl: "/assets/images/membros/Administrativo/Gino-ADM.png",
-        },
-        {
-          nome: "Karen",
-          avatarUrl: "/assets/images/membros/Administrativo/Karen-ADM.png",
-        },
-        {
-          nome: "Pedro",
-          avatarUrl: "/assets/images/membros/Administrativo/Pedro-ADM.png",
-        },
-        {
-          nome: "Samuel",
-          avatarUrl: "/assets/images/membros/Administrativo/Samuel-ADM.png",
+          nome: "Filé",
+          avatarUrl: "/assets/images/membros/presidencia/file.jpg",
         },
       ],
     },
@@ -95,26 +59,18 @@ const members = [
       area: "Assuntos Acadêmicos",
       members: [
         {
-          nome: "Abdu",
-          avatarUrl: "/assets/images/membros/Assuntos Acadêmicos/Abdu.jpg",
-        },
-        {
-          nome: "Lilia",
-          avatarUrl: "/assets/images/membros/Assuntos Acadêmicos/Lilia.jpg",
+          nome: "Phillipi Poloni",
+          avatarUrl:
+            "/assets/images/membros/assuntos_academicos/salsixa.jpg",
         },
         {
           nome: "Moskitao",
-          avatarUrl: "/assets/images/membros/Assuntos Acadêmicos/Moskitao.jpeg",
+          avatarUrl: "/assets/images/membros/assuntos_academicos/moskitao.jpeg",
         },
         {
-          nome: "Phillipi Poloni",
+          nome: "Sean Torres",
           avatarUrl:
-            "/assets/images/membros/Assuntos Acadêmicos/Phillipi Poloni.png",
-        },
-        {
-          nome: "Sean Torres dos Santos",
-          avatarUrl:
-            "/assets/images/membros/Assuntos Acadêmicos/Sean Torres dos Santos.jpeg",
+            "/assets/images/membros/assuntos_academicos/sean.jpeg",
         },
       ],
     },
@@ -122,27 +78,23 @@ const members = [
       area: "Eventos",
       members: [
         {
-          nome: "Giovana Ruiz de Souza",
-          avatarUrl: "/assets/images/membros/Eventos/Giovana Ruiz de Souza.png",
-        },
-        { nome: "Koga", avatarUrl: "/assets/images/membros/Eventos/Koga.jpg" },
-        {
-          nome: "Leo Bonfa",
-          avatarUrl: "/assets/images/membros/Eventos/Leo Bonfa.jpg",
+          nome: "Leonardo Bonfá",
+          avatarUrl: "/assets/images/membros/eventos/leo.jpg",
         },
         {
-          nome: "Lucas de Oliveira Lopes Cardoso",
+          nome: "Lucas de Oliveira",
           avatarUrl:
-            "/assets/images/membros/Eventos/Lucas de Oliveira Lopes Cardoso.png",
+            "/assets/images/membros/eventos/lucas.png",
         },
         {
-          nome: "Maria Eduarda Bertole Matos",
+          nome: "Gabriel Sorensen",
           avatarUrl:
-            "/assets/images/membros/Eventos/Maria Eduarda Bertole Matos.png",
+            "/assets/images/membros/eventos/gabriel.jpeg",
         },
         {
-          nome: "Privas",
-          avatarUrl: "/assets/images/membros/Eventos/Privas.jpg",
+          nome: "João Pedro Calsavara",
+          avatarUrl:
+            "/assets/images/membros/eventos/joao.jpeg",
         },
       ],
     },
@@ -150,55 +102,35 @@ const members = [
       area: "Finanças",
       members: [
         {
-          nome: "Alves",
-          avatarUrl: "/assets/images/membros/Finanças/Alves.jpg",
+          nome: "Marcos",
+          avatarUrl: "/assets/images/membros/financas/Marcos.jpg",
         },
         {
           nome: "Beatriz Galvao",
-          avatarUrl: "/assets/images/membros/Finanças/Beatriz Galvao.jpeg",
-        },
-        {
-          nome: "Carolina",
-          avatarUrl: "/assets/images/membros/Finanças/Carolina-Finanças.jpg",
-        },
-        {
-          nome: "Davie",
-          avatarUrl: "/assets/images/membros/Finanças/Davie-Finanças.png",
-        },
-        {
-          nome: "Marcos",
-          avatarUrl: "/assets/images/membros/Finanças/Marcos-Finanças.png",
+          avatarUrl: "/assets/images/membros/financas/beatriz.jpeg",
         },
         {
           nome: "Nathália",
-          avatarUrl: "/assets/images/membros/Finanças/Nathália-Finanças.png",
-        },
-        {
-          nome: "Tales",
-          avatarUrl: "/assets/images/membros/Finanças/Tales-Finanças.jpeg",
+          avatarUrl: "/assets/images/membros/financas/nathalia.png",
         },
       ],
     },
     {
-      area: "Gestão de Pessoas",
+      area: "Recursos Humanos",
       members: [
-        {
-          nome: "Andrezza",
-          avatarUrl:
-            "/assets/images/membros/Gestão de Pessoas/Andrezza-Gestão-de-Pessoas.png",
-        },
-        {
-          nome: "Duda Gomes",
-          avatarUrl: "/assets/images/membros/Gestão de Pessoas/Duda Gomes.jpeg",
-        },
-        {
-          nome: "Hans",
-          avatarUrl: "/assets/images/membros/Gestão de Pessoas/Hans.jpeg",
-        },
         {
           nome: "Laura",
           avatarUrl:
-            "/assets/images/membros/Gestão de Pessoas/Laura-Gestão-de-Pessoas.png",
+            "/assets/images/membros/recursos_humanos/laura.jpg",
+        },
+        {
+          nome: "Daniel Rosell",
+          avatarUrl: "/assets/images/membros/recursos_humanos/daniel.jpg",
+        },
+        {
+          nome: "Samuel Rodrigues",
+          avatarUrl:
+            "/assets/images/membros/recursos_humanos/samuel.png",
         },
       ],
     },
@@ -206,56 +138,23 @@ const members = [
       area: "Marketing",
       members: [
         {
-          nome: "Arual Gouveia Nunes de Sousa",
-          avatarUrl:
-            "/assets/images/membros/Marketing/Arual Gouveia Nunes de Sousa.png",
-        },
-        {
-          nome: "Bruno Ricardo Corrêa",
-          avatarUrl:
-            "/assets/images/membros/Marketing/Bruno Ricardo Corrêa.png",
-        },
-        {
-          nome: "Julia Fernandes",
-          avatarUrl:
-            "/assets/images/membros/Marketing/Cópia de Julia Fernandes - marketing e comunicação.jpeg",
-        },
-        {
-          nome: "Gabriel Silva Romualdo",
-          avatarUrl:
-            "/assets/images/membros/Marketing/Gabriel Silva Romualdo.png",
-        },
-        {
-          nome: "Gui Vaz Alegrete",
-          avatarUrl: "/assets/images/membros/Marketing/Gui Vaz Alegrete.jpeg",
-        },
-        {
-          nome: "João Victor Targino Yokoyama",
-          avatarUrl:
-            "/assets/images/membros/Marketing/João Victor Targino Yokoyama.png",
-        },
-        {
           nome: "Lucas Mota",
-          avatarUrl: "/assets/images/membros/Marketing/Lucas Mota.jpeg",
+          avatarUrl: "/assets/images/membros/marketing/baianinho.jpg",
         },
         {
-          nome: "Marcelo dos Santos da Boa Morte",
+          nome: "Bruno Corrêa",
           avatarUrl:
-            "/assets/images/membros/Marketing/Marcelo dos Santos da Boa Morte.png",
+            "/assets/images/membros/marketing/bruno.jpg",
         },
         {
-          nome: "Ori Minohara",
+          nome: "Gabriel Romualdo",
           avatarUrl:
-            "/assets/images/membros/Marketing/Ori Minohara - Marketing.png",
+            "/assets/images/membros/marketing/gabriel.jpg",
         },
         {
-          nome: "Rafael Guilherme",
-          avatarUrl: "/assets/images/membros/Marketing/Rafael Guilherme.jpeg",
-        },
-        {
-          nome: "Yasmim Daiana de Jesus Oliveira Silva",
+          nome: "Marcelo dos Santos",
           avatarUrl:
-            "/assets/images/membros/Marketing/Yasmim Daiana de Jesus Oliveira Silva.png",
+            "/assets/images/membros/marketing/marcelo.png",
         },
       ],
     },
@@ -263,34 +162,28 @@ const members = [
       area: "Projetos",
       members: [
         {
-          nome: "Gaby",
-          avatarUrl: "/assets/images/membros/Projetos/Gaby.jpeg",
-        },
-        {
-          nome: "Higor Gabriel",
-          avatarUrl:
-            "/assets/images/membros/Projetos/Higor Gabriel-Projetos.jpg",
+          nome: "Raissa",
+          avatarUrl: "/assets/images/membros/projetos/raissa.png",
         },
         {
           nome: "Hitallo",
-          avatarUrl: "/assets/images/membros/Projetos/Hitallo.jpeg",
+          avatarUrl: "/assets/images/membros/projetos/hitallo.jpeg",
         },
         {
           nome: "Nelson",
-          avatarUrl: "/assets/images/membros/Projetos/Nelson-Projetos.png",
-        },
-        {
-          nome: "Raissa",
-          avatarUrl: "/assets/images/membros/Projetos/Raissa-Projetos.png",
-        },
-        {
-          nome: "Renan Martins",
-          avatarUrl:
-            "/assets/images/membros/Projetos/Renan Martins-Projetos.jpeg",
+          avatarUrl: "/assets/images/membros/projetos/nelson.png",
         },
         {
           nome: "Thyago",
-          avatarUrl: "/assets/images/membros/Projetos/Thyago-Projetos.JPG",
+          avatarUrl: "/assets/images/membros/projetos/thyago"
+        },
+        {
+          nome: "Guilherme Ramalho",
+          avatarUrl: "/assets/images/membros/projetos/guilherme.jpeg"
+        },
+        {
+          nome: "Davie Schimidt",
+          avatarUrl: "/assets/images/membros/projetos/davie.png",
         },
       ],
     },
