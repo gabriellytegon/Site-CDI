@@ -174,10 +174,6 @@ const members = [
           avatarUrl: "/assets/images/membros/projetos/nelson.png",
         },
         {
-          nome: "Thyago",
-          avatarUrl: "/assets/images/membros/projetos/thyago.png"
-        },
-        {
           nome: "Guilherme Ramalho",
           avatarUrl: "/assets/images/membros/projetos/guilherme.jpeg"
         },
