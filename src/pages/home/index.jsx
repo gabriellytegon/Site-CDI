@@ -12,6 +12,14 @@ import "./media.css";
 
 const Home = () => {
   const imagensCarrossel = [
+    "/assets/images/carrossel/IMG_8359.jpg",
+    "/assets/images/carrossel/IMG_8370.jpg",
+    "/assets/images/carrossel/IMG_0680.jpg",
+    "/assets/images/carrossel/IMG_8322.jpg",
+    "/assets/images/carrossel/PHOTO-2024-08-15-19-43-13 3.jpg",
+    "/assets/images/carrossel/PHOTO-2024-08-15-19-43-12.jpg",
+    "/assets/images/carrossel/PHOTO-2024-08-15-19-43-19.jpg",
+    "/assets/images/carrossel/PHOTO-2024-08-15-19-43-22 3.jpg",
     "/assets/images/carrossel/imagem_2024-06-19_191234553.png",
     "/assets/images/carrossel/IMG-20230615-WA0152.jpg",
     "/assets/images/carrossel/IMG-20230615-WA0155.jpg",
@@ -20,26 +28,19 @@ const Home = () => {
     "/assets/images/carrossel/IMG-20230816-WA0053.jpg",
     "/assets/images/carrossel/IMG-20230927-WA0123.jpg",
     "/assets/images/carrossel/IMG-20231005-WA00181.jpg",
-    "/assets/images/carrossel/IMG-20231110-WA0021.jpg",
-    "/assets/images/carrossel/IMG-20231110-WA0027.jpg",
-    "/assets/images/carrossel/IMG-20231110-WA0032.jpg",
-    "/assets/images/carrossel/IMG-20231110-WA0038.jpg",
-    "/assets/images/carrossel/IMG-20231110-WA0044.jpg",
     "/assets/images/carrossel/IMG-20231110-WA0047.jpg",
-    "/assets/images/carrossel/IMG-20231110-WA0048.jpg",
     "/assets/images/carrossel/IMG-20231130-WA0071.jpg",
+    "/assets/images/carrossel/IMG-20231130-WA00721.jpg",
     "/assets/images/carrossel/IMG-20231130-WA0073.jpg",
     "/assets/images/carrossel/IMG-20231130-WA0074.jpg",
-    "/assets/images/carrossel/IMG-20231130-WA00721.jpg",
     "/assets/images/carrossel/IMG-20231130-WA00781.jpg",
     "/assets/images/carrossel/IMG-20240425-WA0075.jpg",
     "/assets/images/carrossel/IMG-20240426-WA0073.jpg",
     "/assets/images/carrossel/IMG-20240523-WA0037.jpg",
-    "/assets/images/carrossel/IMG-20240615-WA0005.jpg",
     "/assets/images/carrossel/IMG-20240618-WA0065.jpg",
     "/assets/images/carrossel/IMG-20240619-WA0051.jpg",
     "/assets/images/carrossel/Screenshot_2024-06-19-19-20-47-544_com.instagram.android-edit.jpg",
-];
+    ];
 
 const members = [
     {
